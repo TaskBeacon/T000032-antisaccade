@@ -1,5 +1,175 @@
 [
   {
+    "id": "W1996538430",
+    "title": "Shaping Functional Architecture by Oscillatory Alpha Activity: Gating by Inhibition",
+    "authors": [
+      "Ole Jensen",
+      "Ali Mazaheri"
+    ],
+    "year": 2010,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2010.00186",
+    "citation_count": 3242,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2171494914",
+    "title": "Error\u2010related brain potentials are differentially related to awareness of response errors: Evidence from an antisaccade task",
+    "authors": [
+      "Sander Nieuwenhuis",
+      "K. Richard Ridderinkhof",
+      "J. G. BLOM",
+      "Guido P. H. Band",
+      "Albert Kok"
+    ],
+    "year": 2001,
+    "journal": "Psychophysiology",
+    "doi_or_url": "https://doi.org/10.1111/1469-8986.3850752",
+    "citation_count": 1127,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2143702906",
+    "title": "A dual systems model of adolescent risk\u2010taking",
+    "authors": [
+      "Laurence Steinberg"
+    ],
+    "year": 2010,
+    "journal": "Developmental Psychobiology",
+    "doi_or_url": "https://doi.org/10.1002/dev.20445",
+    "citation_count": 1088,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2160195521",
+    "title": "An Interoceptive Predictive Coding Model of Conscious Presence",
+    "authors": [
+      "Anil K. Seth",
+      "Keisuke Suzuki",
+      "Hugo Critchley"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2011.00395",
+    "citation_count": 949,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2116336109",
+    "title": "Functional localization of the system for visuospatial attention using positron emission tomography",
+    "authors": [
+      "Anna C. Nobre"
+    ],
+    "year": 1997,
+    "journal": "Brain",
+    "doi_or_url": "https://doi.org/10.1093/brain/120.3.515",
+    "citation_count": 911,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2085462417",
+    "title": "Brain Connectivity Related to Working Memory Performance",
+    "authors": [
+      "Michelle Hampson",
+      "Naomi Driesen",
+      "Pawel Skudlarski",
+      "John C. Gore",
+      "R. Todd Constable"
+    ],
+    "year": 2006,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3408-06.2006",
+    "citation_count": 869,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2123523993",
+    "title": "Brain Maturation in Adolescence and Young Adulthood: Regional Age-Related Changes in Cortical Thickness and White Matter Volume and Microstructure",
+    "authors": [
+      "Christian K. Tamnes",
+      "Ylva \u00d8stby",
+      "Anders M. Fjell",
+      "Lars T. Westlye",
+      "Paulina Due\u2010T\u00f8nnessen",
+      "Kristine B. Walhovd"
+    ],
+    "year": 2009,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhp118",
+    "citation_count": 793,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2144655282",
+    "title": "Brain Dynamics Underlying the Nonlinear Threshold for Access to Consciousness",
+    "authors": [
+      "Antoine Del Cul",
+      "Sylvain Baillet",
+      "Stanislas Dehaene"
+    ],
+    "year": 2007,
+    "journal": "PLoS Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pbio.0050260",
+    "citation_count": 769,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W1552598564",
     "title": "Resting-state networks show dynamic functional connectivity in awake humans and anesthetized macaques",
     "authors": [
@@ -23,6 +193,127 @@
     "notes": ""
   },
   {
+    "id": "W2190536949",
+    "title": "Identification of Distinct Psychosis Biotypes Using Brain-Based Biomarkers",
+    "authors": [
+      "Brett A. Clementz",
+      "John A. Sweeney",
+      "Jordan P. Hamm",
+      "Elena I. Ivleva",
+      "Lauren E. Ethridge",
+      "Godfrey D. Pearlson",
+      "Matcheri S. Keshavan",
+      "Carol A. Tamminga"
+    ],
+    "year": 2015,
+    "journal": "American Journal of Psychiatry",
+    "doi_or_url": "https://doi.org/10.1176/appi.ajp.2015.14091200",
+    "citation_count": 744,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2167984680",
+    "title": "Functional Organization of Human Intraparietal and Frontal Cortex for Attending, Looking, and Pointing",
+    "authors": [
+      "Serguei V. Astafiev",
+      "Gordon L. Shulman",
+      "Christine M. Stanley",
+      "Abraham Z. Snyder",
+      "David C. Van Essen",
+      "Maurizio Corbetta"
+    ],
+    "year": 2003,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.23-11-04689.2003",
+    "citation_count": 642,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2129893863",
+    "title": "Effects of the FITKids Randomized Controlled Trial on Executive Control and Brain Function",
+    "authors": [
+      "Charles H. Hillman",
+      "Matthew B. Pontifex",
+      "Darla M. Castelli",
+      "Naiman A. Khan",
+      "Lauren B. Raine",
+      "Mark R. Scudder",
+      "Eric S. Drollette",
+      "Robert Davis Moore",
+      "Chien-Ting Wu",
+      "Keita Kamijo"
+    ],
+    "year": 2014,
+    "journal": "PEDIATRICS",
+    "doi_or_url": "https://doi.org/10.1542/peds.2013-3219",
+    "citation_count": 615,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2145448684",
+    "title": "Why do beliefs about intelligence influence learning success? A social cognitive neuroscience model",
+    "authors": [
+      "Jennifer A. Mangels",
+      "Brady Butterfield",
+      "Justin Lamb",
+      "Catherine Good",
+      "Carol S. Dweck"
+    ],
+    "year": 2006,
+    "journal": "Social Cognitive and Affective Neuroscience",
+    "doi_or_url": "https://doi.org/10.1093/scan/nsl013",
+    "citation_count": 575,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2039517753",
+    "title": "Why does working memory capacity predict variation in reading comprehension? On the influence of mind wandering and executive attention.",
+    "authors": [
+      "Jennifer C. McVay",
+      "Michael J. Kane"
+    ],
+    "year": 2011,
+    "journal": "Journal of Experimental Psychology General",
+    "doi_or_url": "https://doi.org/10.1037/a0025250",
+    "citation_count": 568,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2104663113",
     "title": "Neuronal Correlates for Preparatory Set Associated with Pro-Saccades and Anti-Saccades in the Primate Frontal Eye Field",
     "authors": [
@@ -33,6 +324,50 @@
     "journal": "Journal of Neuroscience",
     "doi_or_url": "https://doi.org/10.1523/jneurosci.20-01-00387.2000",
     "citation_count": 564,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1992230893",
+    "title": "Neural Activity in Macaque Parietal Cortex Reflects Temporal Integration of Visual Motion Signals during Perceptual Decision Making",
+    "authors": [
+      "Alexander C. Huk",
+      "Michael N. Shadlen"
+    ],
+    "year": 2005,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4684-04.2005",
+    "citation_count": 564,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2004500608",
+    "title": "Post-error slowing: An orienting account",
+    "authors": [
+      "Wim Notebaert",
+      "Femke Houtman",
+      "Filip Van Opstal",
+      "Wim Gevers",
+      "Wim Fias",
+      "Tom Verguts"
+    ],
+    "year": 2009,
+    "journal": "Cognition",
+    "doi_or_url": "https://doi.org/10.1016/j.cognition.2009.02.002",
+    "citation_count": 536,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -64,6 +399,48 @@
     "notes": ""
   },
   {
+    "id": "W2152077590",
+    "title": "White Matter Development in Adolescence: A DTI Study",
+    "authors": [
+      "Miya R. Asato",
+      "Robert Terwilliger",
+      "John Woo",
+      "Beatr\u00edz Luna"
+    ],
+    "year": 2010,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhp282",
+    "citation_count": 514,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2023477256",
+    "title": "Post-Error Adjustments",
+    "authors": [
+      "Claudia Danielmeier",
+      "Markus Ullsperger"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2011.00233",
+    "citation_count": 472,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2169285522",
     "title": "Inhibitory Control in High-Functioning Autism: Decreased Activation and Underconnectivity in Inhibition Networks",
     "authors": [
@@ -86,6 +463,118 @@
     "notes": ""
   },
   {
+    "id": "W2115768836",
+    "title": "What is working memory capacity, and how can we measure it?",
+    "authors": [
+      "Oliver Wilhelm",
+      "Andrea Hildebrandt",
+      "Klaus Oberauer"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2013.00433",
+    "citation_count": 460,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2162957977",
+    "title": "A Model of Saccade Initiation Based on the Competitive Integration of Exogenous and Endogenous Signals in the Superior Colliculus",
+    "authors": [
+      "Thomas Trappenberg",
+      "Michael C. Dorris",
+      "Douglas P. Munoz",
+      "Raymond M. Klein"
+    ],
+    "year": 2001,
+    "journal": "Journal of Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1162/089892901564306",
+    "citation_count": 446,
+    "is_high_impact": true,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4210378358",
+    "title": "Focused ultrasound excites cortical neurons via mechanosensitive calcium accumulation and ion channel amplification",
+    "authors": [
+      "Sangjin Yoo",
+      "David R. Mittelstein",
+      "Robert C. Hurt",
+      "J\u00e9r\u00f4me J. Lacroix",
+      "Mikhail G. Shapiro"
+    ],
+    "year": 2022,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-022-28040-1",
+    "citation_count": 437,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1965086680",
+    "title": "Exploring the unity and diversity of the neural substrates of executive functioning",
+    "authors": [
+      "Fabienne Collette",
+      "Martial Van der Linden",
+      "Steven Laureys",
+      "Guy Delfiore",
+      "Christian Degueldre",
+      "Andr\u00e9 Luxen",
+      "\u00c9ric Salmon"
+    ],
+    "year": 2005,
+    "journal": "Human Brain Mapping",
+    "doi_or_url": "https://doi.org/10.1002/hbm.20118",
+    "citation_count": 406,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2012757584",
+    "title": "Prefrontal Contributions to Metacognition in Perceptual Decision Making",
+    "authors": [
+      "Stephen M. Fleming",
+      "Josefien Huijgen",
+      "Raymond J. Dolan"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.6489-11.2012",
+    "citation_count": 406,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W1875187353",
     "title": "Role of Primate Superior Colliculus in Preparation and Execution of Anti-Saccades and Pro-Saccades",
     "authors": [
@@ -97,6 +586,30 @@
     "year": 1999,
     "journal": "Journal of Neuroscience",
     "doi_or_url": "https://doi.org/10.1523/jneurosci.19-07-02740.1999",
+    "citation_count": 404,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2043919363",
+    "title": "Low-Intensity Focused Ultrasound Modulates Monkey Visuomotor Behavior",
+    "authors": [
+      "Thomas Deffieux",
+      "Youliana Younan",
+      "Nicolas Wattiez",
+      "Micka\u00ebl Tanter",
+      "Pierre Pouget",
+      "Jean\u2010Fran\u00e7ois Aubry"
+    ],
+    "year": 2013,
+    "journal": "Current Biology",
+    "doi_or_url": "https://doi.org/10.1016/j.cub.2013.10.029",
     "citation_count": 404,
     "is_high_impact": false,
     "open_access": true,
@@ -131,6 +644,69 @@
     "notes": ""
   },
   {
+    "id": "W2109720649",
+    "title": "Drifting from slow to \u201cd'oh!\u201d: Working memory capacity and mind wandering predict extreme reaction times and executive control errors.",
+    "authors": [
+      "Jennifer C. McVay",
+      "Michael J. Kane"
+    ],
+    "year": 2011,
+    "journal": "Journal of Experimental Psychology Learning Memory and Cognition",
+    "doi_or_url": "https://doi.org/10.1037/a0025896",
+    "citation_count": 384,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2068671308",
+    "title": "Human Variation in Overriding Attentional Capture",
+    "authors": [
+      "Keisuke Fukuda",
+      "Edward K. Vogel"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2145-09.2009",
+    "citation_count": 380,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2017682289",
+    "title": "Lifelong Bilingualism Maintains Neural Efficiency for Cognitive Control in Aging",
+    "authors": [
+      "Brian T. Gold",
+      "Chobok Kim",
+      "Nathan F. Johnson",
+      "Richard J. Kryscio",
+      "Charles D. Smith"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3837-12.2013",
+    "citation_count": 368,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2003370843",
     "title": "Response monitoring, repetitive behaviour and anterior cingulate abnormalities in autism spectrum disorders (ASD)",
     "authors": [
@@ -147,6 +723,213 @@
     "doi_or_url": "https://doi.org/10.1093/brain/awn099",
     "citation_count": 356,
     "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2164418127",
+    "title": "A computational account of altered error processing in older age: Dopamine and the error-related negativity",
+    "authors": [
+      "Sander Nieuwenhuis",
+      "K. Richard Ridderinkhof",
+      "Durk Talsma",
+      "Michael Coles",
+      "Clay B. Holroyd",
+      "Albert Kok",
+      "Maurits W. van der Molen"
+    ],
+    "year": 2002,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/cabn.2.1.19",
+    "citation_count": 348,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2846983703",
+    "title": "The Advantages of Bilingualism Debate",
+    "authors": [
+      "Mark Antoniou"
+    ],
+    "year": 2018,
+    "journal": "Annual Review of Linguistics",
+    "doi_or_url": "https://doi.org/10.1146/annurev-linguistics-011718-011820",
+    "citation_count": 339,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2154017217",
+    "title": "Reinforcement Learning Signals Predict Future Decisions",
+    "authors": [
+      "Michael X Cohen",
+      "Charan Ranganath"
+    ],
+    "year": 2007,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4421-06.2007",
+    "citation_count": 335,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2210063156",
+    "title": "The Contribution of Network Organization and Integration to the Development of Cognitive Control",
+    "authors": [
+      "Scott Marek",
+      "Kai Hwang",
+      "Will Foran",
+      "Michael N. Hallquist",
+      "Beatr\u00edz Luna"
+    ],
+    "year": 2015,
+    "journal": "PLoS Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pbio.1002328",
+    "citation_count": 335,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2075604446",
+    "title": "Open vs. Closed Skill Sports and the Modulation of Inhibitory Control",
+    "authors": [
+      "Chun\u2010Hao Wang",
+      "Che-Chien Chang",
+      "Yen-Ming Liang",
+      "Chun\u2010Ming Shih",
+      "Wen-Sheng Chiu",
+      "Philip Tseng",
+      "Daisy L. Hung",
+      "Ovid J. L. Tzeng",
+      "Neil G. Muggleton",
+      "Chi-Hung Juan"
+    ],
+    "year": 2013,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0055773",
+    "citation_count": 327,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2110157580",
+    "title": "Is there a bilingual advantage in the ANT task? Evidence from children",
+    "authors": [
+      "Eneko Ant\u00c3 n",
+      "Jon A. Du\u00c3\u00b1abeitia",
+      "Adelina Est\u00c3\u00a9vez",
+      "Juan A. Hern\u00c3\u00a1ndez",
+      "Alejandro Castillo",
+      "Luis J. Fuentes",
+      "Douglas Davidson",
+      "Manuel Carreiras"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.00398",
+    "citation_count": 325,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2118607884",
+    "title": "Is threat the only modulator of attentional selectivity? Redefining the Easterbrook hypothesis",
+    "authors": [
+      "Thomas A. S\u00c3 \u0327rensen",
+      "Daniel Barratt"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.01020",
+    "citation_count": 321,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2313237523",
+    "title": "Pupillary correlates of lapses of sustained attention",
+    "authors": [
+      "Nash Unsworth",
+      "Matthew K. Robison"
+    ],
+    "year": 2016,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-016-0417-4",
+    "citation_count": 314,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2093517881",
+    "title": "Brainmap taxonomy of experimental design: Description and evaluation",
+    "authors": [
+      "Peter T. Fox",
+      "Angela R. Laird",
+      "Sarabeth P. Fox",
+      "P. Mickle Fox",
+      "Angela M. Uecker",
+      "Michelle Crank",
+      "Sandra F. Koenig",
+      "Jack L. Lancaster"
+    ],
+    "year": 2005,
+    "journal": "Human Brain Mapping",
+    "doi_or_url": "https://doi.org/10.1002/hbm.20141",
+    "citation_count": 313,
+    "is_high_impact": false,
     "open_access": true,
     "used_for": [
       "task_workflow",
@@ -198,6 +981,95 @@
     "notes": ""
   },
   {
+    "id": "W2073230422",
+    "title": "Maintenance of Spatial and Motor Codes during Oculomotor Delayed Response Tasks",
+    "authors": [
+      "Clayton E. Curtis",
+      "Vikas Y. Rao",
+      "Mark D\u2019Esposito"
+    ],
+    "year": 2004,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5640-03.2004",
+    "citation_count": 311,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2159376206",
+    "title": "Cortical regions involved in eye movements, shifts of attention, and gaze perception",
+    "authors": [
+      "Marie\u2010H\u00e9l\u00e8ne Grosbras",
+      "Angela R. Laird",
+      "Tom\u00e1\u0161 Paus"
+    ],
+    "year": 2005,
+    "journal": "Human Brain Mapping",
+    "doi_or_url": "https://doi.org/10.1002/hbm.20145",
+    "citation_count": 308,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2054036686",
+    "title": "Decision Processes in Human Performance Monitoring",
+    "authors": [
+      "Marco Steinhauser",
+      "Nick Yeung"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1899-10.2010",
+    "citation_count": 299,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2084699651",
+    "title": "l-Dopa Modulates Functional Connectivity in Striatal Cognitive and Motor Networks: A Double-Blind Placebo-Controlled Study",
+    "authors": [
+      "Clare Kelly",
+      "Greig I. de Zubicaray",
+      "Adriana Di Martino",
+      "David A. Copland",
+      "Philip T. Reiss",
+      "Donald F. Klein",
+      "F. Xavier Castellanos",
+      "Michael P. Milham",
+      "Katie L. McMahon"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0810-09.2009",
+    "citation_count": 298,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2042624378",
     "title": "Longitudinal Growth Curves of Brain Function Underlying Inhibitory Control through Adolescence",
     "authors": [
@@ -220,6 +1092,209 @@
     "notes": ""
   },
   {
+    "id": "W2075128941",
+    "title": "Impaired Error Awareness and Anterior Cingulate Cortex Hypoactivity in Chronic Cannabis Users",
+    "authors": [
+      "Robert Hester",
+      "Liam J. Nestor",
+      "Hugh Garavan"
+    ],
+    "year": 2009,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2009.67",
+    "citation_count": 296,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2077354717",
+    "title": "An examination of the seductive details effect in terms of working memory capacity",
+    "authors": [
+      "Christopher A. Sanchez",
+      "Jennifer Wiley"
+    ],
+    "year": 2006,
+    "journal": "Memory & Cognition",
+    "doi_or_url": "https://doi.org/10.3758/bf03193412",
+    "citation_count": 292,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2066685640",
+    "title": "Shared Neural Markers of Decision Confidence and Error Detection",
+    "authors": [
+      "Annika Boldt",
+      "Nick Yeung"
+    ],
+    "year": 2015,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0797-14.2015",
+    "citation_count": 290,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2126073970",
+    "title": "The Influence of Behavioral Context on the Representation of a Perceptual Decision in Developing Oculomotor Commands",
+    "authors": [
+      "Joshua I. Gold",
+      "Michael N. Shadlen"
+    ],
+    "year": 2003,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.23-02-00632.2003",
+    "citation_count": 290,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2163029708",
+    "title": "The effects of physical activity on functional MRI activation associated with cognitive control in children: a randomized controlled intervention",
+    "authors": [
+      "Laura Chaddock\u2010Heyman",
+      "Kirk I. Erickson",
+      "Michelle W. Voss",
+      "Anya M. Knecht",
+      "Matthew B. Pontifex",
+      "Darla M. Castelli",
+      "Charles H. Hillman",
+      "Arthur F. Kramer"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2013.00072",
+    "citation_count": 289,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3025481747",
+    "title": "Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): I. Psychosis superspectrum",
+    "authors": [
+      "Roman Kotov",
+      "Katherine Jonas",
+      "William T. Carpenter",
+      "Michael N. Dretsch",
+      "Nicholas R. Eaton",
+      "Miriam K. Forbes",
+      "Kelsie T. Forbush",
+      "Kelsey A. Hobbs",
+      "Ulrich Reininghaus",
+      "Tim Slade",
+      "Susan C. South",
+      "Matthew Sunderland"
+    ],
+    "year": 2020,
+    "journal": "World Psychiatry",
+    "doi_or_url": "https://doi.org/10.1002/wps.20730",
+    "citation_count": 285,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2902929476",
+    "title": "Arousal Effects on Pupil Size, Heart Rate, and Skin Conductance in an Emotional Face Task",
+    "authors": [
+      "Chin\u2010An Wang",
+      "Talia Baird",
+      "Jeff Huang",
+      "Jonathan Coutinho",
+      "Donald C. Brien",
+      "Douglas P. Munoz"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Neurology",
+    "doi_or_url": "https://doi.org/10.3389/fneur.2018.01029",
+    "citation_count": 280,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2054589144",
+    "title": "Representation of Attended Versus Remembered Locations in Prefrontal Cortex",
+    "authors": [
+      "Mikhail Lebedev",
+      "Adam Messinger",
+      "Jerald D. Kralik",
+      "Steven P. Wise"
+    ],
+    "year": 2004,
+    "journal": "PLoS Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pbio.0020365",
+    "citation_count": 278,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2047640349",
+    "title": "Executive Functioning in Schizophrenia",
+    "authors": [
+      "Gricel Orellana",
+      "Andrea Slachevsky"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2013.00035",
+    "citation_count": 274,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2546818989",
     "title": "Suppression of overt attentional capture by salient-but-irrelevant color singletons",
     "authors": [
@@ -231,6 +1306,256 @@
     "journal": "Attention Perception & Psychophysics",
     "doi_or_url": "https://doi.org/10.3758/s13414-016-1209-1",
     "citation_count": 274,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2050749056",
+    "title": "Affective Neural Circuitry During Facial Emotion Processing in Pediatric Bipolar Disorder",
+    "authors": [
+      "Mani N. Pavuluri",
+      "Megan O\u2019Connor",
+      "Erin M. Harral",
+      "John A. Sweeney"
+    ],
+    "year": 2006,
+    "journal": "Biological Psychiatry",
+    "doi_or_url": "https://doi.org/10.1016/j.biopsych.2006.07.011",
+    "citation_count": 267,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1972635397",
+    "title": "Cortical networks subserving pursuit and saccadic eye movements in humans: An FMRI study",
+    "authors": [
+      "Rebecca A. Berman",
+      "Carol L. Colby",
+      "Christopher R. Genovese",
+      "James T. Voyvodic",
+      "Beatr\u00edz Luna",
+      "Keith R. Thulborn",
+      "John A. Sweeney"
+    ],
+    "year": 1999,
+    "journal": "Human Brain Mapping",
+    "doi_or_url": "https://doi.org/10.1002/(sici)1097-0193(1999)8:4<209::aid-hbm5>3.0.co;2-0",
+    "citation_count": 266,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2019371219",
+    "title": "Context-Specific Grasp Movement Representation in the Macaque Anterior Intraparietal Area",
+    "authors": [
+      "Markus A. Baumann",
+      "Marie-Christine Fluet",
+      "Hansj\u00f6rg Scherberger"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5479-08.2009",
+    "citation_count": 258,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1987840011",
+    "title": "The Influence of Movement Preparation Time on the Expression of Visuomotor Learning and Savings",
+    "authors": [
+      "Adrian M. Haith",
+      "David M. Huberdeau",
+      "John W. Krakauer"
+    ],
+    "year": 2015,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3869-14.2015",
+    "citation_count": 257,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4200475539",
+    "title": "Aerobic Exercise Alters Brain Function and Structure in Parkinson's Disease: A Randomized Controlled Trial",
+    "authors": [
+      "Martin E. Johansson",
+      "Ian Cameron",
+      "Nicolien M. van der Kolk",
+      "Nienke M. de Vries",
+      "Eva Klimars",
+      "Ivan Toni",
+      "Bastiaan R. Bloem",
+      "Rick C. Helmich"
+    ],
+    "year": 2021,
+    "journal": "Annals of Neurology",
+    "doi_or_url": "https://doi.org/10.1002/ana.26291",
+    "citation_count": 256,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2027854250",
+    "title": "Scope of attention, control of attention, and intelligence in children and adults",
+    "authors": [
+      "Nelson Cowan",
+      "Nathanael M. Fristoe",
+      "Emily M. Elliott",
+      "Ryan Brunner",
+      "J. Scott Saults"
+    ],
+    "year": 2006,
+    "journal": "Memory & Cognition",
+    "doi_or_url": "https://doi.org/10.3758/bf03195936",
+    "citation_count": 255,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2126881089",
+    "title": "Bilingual advantages in executive functioning: problems in convergent validity, discriminant validity, and the identification of the theoretical constructs",
+    "authors": [
+      "Kenneth R. Paap"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.00962",
+    "citation_count": 247,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3202631805",
+    "title": "Effect of Levetiracetam on Cognition in Patients With Alzheimer Disease With and Without Epileptiform Activity",
+    "authors": [
+      "Keith Vossel",
+      "Kamalini G. Ranasinghe",
+      "Alexander J. Beagle",
+      "Alice La",
+      "Kasey Ah Pook",
+      "Madelyn Castro",
+      "Danielle Mizuiri",
+      "Susanne Honma",
+      "Nisha Venkateswaran",
+      "Mary Koestler",
+      "Wenbo Zhang",
+      "Lennart Mucke"
+    ],
+    "year": 2021,
+    "journal": "JAMA Neurology",
+    "doi_or_url": "https://doi.org/10.1001/jamaneurol.2021.3310",
+    "citation_count": 247,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2163936675",
+    "title": "Error Awareness Revisited: Accumulation of Multimodal Evidence from Central and Autonomic Nervous Systems",
+    "authors": [
+      "Jan R. Wessel",
+      "Claudia Danielmeier",
+      "Markus Ullsperger"
+    ],
+    "year": 2011,
+    "journal": "Journal of Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1162/jocn.2011.21635",
+    "citation_count": 243,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2160665922",
+    "title": "Surprise and Error: Common Neuronal Architecture for the Processing of Errors and Novelty",
+    "authors": [
+      "Jan R. Wessel",
+      "Claudia Danielmeier",
+      "J. Bruce Morton",
+      "Markus Ullsperger"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.6352-11.2012",
+    "citation_count": 234,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1974677913",
+    "title": "Supertaskers: Profiles in extraordinary multitasking ability",
+    "authors": [
+      "Jason M. Watson",
+      "David L. Strayer"
+    ],
+    "year": 2010,
+    "journal": "Psychonomic Bulletin & Review",
+    "doi_or_url": "https://doi.org/10.3758/pbr.17.4.479",
+    "citation_count": 232,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -264,6 +1589,95 @@
     "notes": ""
   },
   {
+    "id": "W2074321137",
+    "title": "Prioritized Maps of Space in Human Frontoparietal Cortex",
+    "authors": [
+      "Trenton A. Jerde",
+      "Elisha P. Merriam",
+      "Adam C. Riggall",
+      "James H. Hedges",
+      "Clayton E. Curtis"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3810-12.2012",
+    "citation_count": 230,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2163598666",
+    "title": "Anxiety, Attentional Control, and Performance Impairment in Penalty Kicks",
+    "authors": [
+      "Mark Wilson",
+      "Greg Wood",
+      "Samuel J. Vine"
+    ],
+    "year": 2009,
+    "journal": "Journal of Sport and Exercise Psychology",
+    "doi_or_url": "https://doi.org/10.1123/jsep.31.6.761",
+    "citation_count": 229,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2886370156",
+    "title": "A Hierarchical Model of Inhibitory Control",
+    "authors": [
+      "Jeggan Tiego",
+      "Ren\u00e9e Testa",
+      "Mark A. Bellgrove",
+      "Christos Pantelis",
+      "Sarah Whittle"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2018.01339",
+    "citation_count": 228,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2108892048",
+    "title": "Prefrontal Activation Evoked by Infrequent Target and Novel Stimuli in a Visual Target Detection Task: An Event-Related Functional Magnetic Resonance Imaging Study",
+    "authors": [
+      "Eiji Kirino",
+      "Ay\u015fenil Belger",
+      "Patricia S. Goldman\u2010Rakic",
+      "Gregory McCarthy"
+    ],
+    "year": 2000,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.20-17-06612.2000",
+    "citation_count": 227,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2127625552",
     "title": "Reward Modulates Attention Independently of Action Value in Posterior Parietal Cortex",
     "authors": [
@@ -287,6 +1701,118 @@
     "notes": ""
   },
   {
+    "id": "W2165750615",
+    "title": "Is There a Relationship between Language Switching and Executive Functions in Bilingualism? Introducing a within group Analysis Approach",
+    "authors": [
+      "Anna Soveri",
+      "Antoni Rodr\u0131\u0301guez-Fornells",
+      "Matti Laine"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2011.00183",
+    "citation_count": 220,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2097723363",
+    "title": "Reduced cognitive control of response inhibition by the anterior cingulate cortex in autism spectrum disorders",
+    "authors": [
+      "Yigal Agam",
+      "Robert M. Joseph",
+      "Jason J.S. Barton",
+      "Dara S. Manoach"
+    ],
+    "year": 2010,
+    "journal": "NeuroImage",
+    "doi_or_url": "https://doi.org/10.1016/j.neuroimage.2010.04.010",
+    "citation_count": 218,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2155335640",
+    "title": "Success and Failure Suppressing Reflexive Behavior",
+    "authors": [
+      "Clayton E. Curtis",
+      "Mark D\u2019Esposito"
+    ],
+    "year": 2003,
+    "journal": "Journal of Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1162/089892903321593126",
+    "citation_count": 217,
+    "is_high_impact": true,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1591427292",
+    "title": "Functional Anatomy of a Prelearned Sequence of Horizontal Saccades in Humans",
+    "authors": [
+      "Laurent Petit",
+      "Christophe Orssaud",
+      "N. Tzourio",
+      "Fabrice Crivello",
+      "Alain Berthoz",
+      "Bernard Mazoyer"
+    ],
+    "year": 1996,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.16-11-03714.1996",
+    "citation_count": 216,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2135532814",
+    "title": "Impaired inhibitory control is associated with higher-order repetitive behaviors in autism spectrum disorders",
+    "authors": [
+      "Matthew W. Mosconi",
+      "Margaret Kay",
+      "Anna-Maria D\u2019Cruz",
+      "A. Seidenfeld",
+      "Stephen J. Guter",
+      "Lisa D. Stanford",
+      "John A. Sweeney"
+    ],
+    "year": 2009,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s0033291708004984",
+    "citation_count": 215,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2170638884",
     "title": "Visual and Anticipatory Bias in Three Cortical Eye Fields of the Monkey during an Adaptive Decision-Making Task",
     "authors": [
@@ -299,6 +1825,92 @@
     "journal": "Journal of Neuroscience",
     "doi_or_url": "https://doi.org/10.1523/jneurosci.22-12-05081.2002",
     "citation_count": 214,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1985895822",
+    "title": "Error awareness and the insula: links to neurological and psychiatric diseases",
+    "authors": [
+      "Tilmann A. Klein",
+      "Markus Ullsperger",
+      "Claudia Danielmeier"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2013.00014",
+    "citation_count": 214,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2003004992",
+    "title": "Error awareness and the error-related negativity: evaluating the first decade of evidence",
+    "authors": [
+      "Jan R. eWessel"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2012.00088",
+    "citation_count": 212,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2122215233",
+    "title": "Common and unique components of inhibition and working memory: An fMRI, within-subjects investigation",
+    "authors": [
+      "Fiona McNab",
+      "Ga\u00eblle Leroux",
+      "Fredrik Strand",
+      "Lisa B. Thorell",
+      "S. Bergman",
+      "Torkel Klingberg"
+    ],
+    "year": 2008,
+    "journal": "Neuropsychologia",
+    "doi_or_url": "https://doi.org/10.1016/j.neuropsychologia.2008.04.023",
+    "citation_count": 209,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2164843580",
+    "title": "Qualitative Differences between Bilingual Language Control and Executive Control: Evidence from Task-Switching",
+    "authors": [
+      "Marco Calabria",
+      "Mireia Hern\u00e1ndez",
+      "Francesca M. Branzi",
+      "Albert Costa"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2011.00399",
+    "citation_count": 209,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -339,6 +1951,159 @@
     "notes": ""
   },
   {
+    "id": "W2594475619",
+    "title": "Working Memory and Decision-Making in a Frontoparietal Circuit Model",
+    "authors": [
+      "John D. Murray",
+      "Jorge Jaramillo",
+      "Xiao\u2010Jing Wang"
+    ],
+    "year": 2017,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0343-17.2017",
+    "citation_count": 204,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2081764100",
+    "title": "Nicotine Enhances Visuospatial Attention by Deactivating Areas of the Resting Brain Default Network",
+    "authors": [
+      "Britta Hahn",
+      "Thomas J. Ross",
+      "Yihong Yang",
+      "Insook Kim",
+      "Marilyn A. Huestis",
+      "Elliot A. Stein"
+    ],
+    "year": 2007,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5129-06.2007",
+    "citation_count": 202,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1989816441",
+    "title": "Developmental changes in brain function underlying the influence of reward processing on inhibitory control",
+    "authors": [
+      "Aarthi Padmanabhan",
+      "Charles F. Geier",
+      "Sarah J. Ordaz",
+      "Theresa Teslovich",
+      "Beatr\u00edz Luna"
+    ],
+    "year": 2011,
+    "journal": "Developmental Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1016/j.dcn.2011.06.004",
+    "citation_count": 199,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2530555723",
+    "title": "Neural and psychophysiological correlates of human performance under stress and high mental workload",
+    "authors": [
+      "K\u00e9vin Mandrick",
+      "Vsevolod Peysakhovich",
+      "F. R\u00e9my",
+      "Evelyne Lepron",
+      "Micka\u00ebl Causse"
+    ],
+    "year": 2016,
+    "journal": "Biological Psychology",
+    "doi_or_url": "https://doi.org/10.1016/j.biopsycho.2016.10.002",
+    "citation_count": 199,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1981289019",
+    "title": "Balanced bilingualism and early age of second language acquisition as the underlying mechanisms of a bilingual executive control advantage: why variations in bilingual experiences matter",
+    "authors": [
+      "W. Quin Yow",
+      "Xiaoqian Li"
+    ],
+    "year": 2015,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2015.00164",
+    "citation_count": 199,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2130155692",
+    "title": "The Role of the Human Dorsolateral Prefrontal Cortex in Ocular Motor Behavior",
+    "authors": [
+      "C. Pierrot\u2010Deseilligny",
+      "Ren\u00e9 M. M\u00fcri",
+      "Thomas Nyffeler",
+      "Dan Mil\u00e9a"
+    ],
+    "year": 2005,
+    "journal": "Annals of the New York Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1196/annals.1325.023",
+    "citation_count": 197,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2159736104",
+    "title": "Distinct Representations of a Perceptual Decision and the Associated Oculomotor Plan in the Monkey Lateral Intraparietal Area",
+    "authors": [
+      "Sharath Bennur",
+      "Joshua I. Gold"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4417-10.2011",
+    "citation_count": 196,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W1964491363",
     "title": "Impulsivity in Binge Eating Disorder: Food Cues Elicit Increased Reward Responses and Disinhibition",
     "authors": [
@@ -354,6 +2119,132 @@
     "journal": "PLoS ONE",
     "doi_or_url": "https://doi.org/10.1371/journal.pone.0076542",
     "citation_count": 195,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2047084856",
+    "title": "Task context impacts visual object processing differentially across the cortex",
+    "authors": [
+      "Assaf Harel",
+      "Dwight J. Kravitz",
+      "Chris I. Baker"
+    ],
+    "year": 2014,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1312567111",
+    "citation_count": 193,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1911581878",
+    "title": "Training working memory to improve attentional control in anxiety: A proof-of-principle study using behavioral and electrophysiological measures",
+    "authors": [
+      "Berna A. Sar\u0131",
+      "Ernst H. W. Koster",
+      "Gilles Pourtois",
+      "Nazanin Derakshan"
+    ],
+    "year": 2015,
+    "journal": "Biological Psychology",
+    "doi_or_url": "https://doi.org/10.1016/j.biopsycho.2015.09.008",
+    "citation_count": 192,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2103359916",
+    "title": "Neurophysiological Evidence of Error-monitoring Deficits in Patients with Schizophrenia",
+    "authors": [
+      "Claude Alain"
+    ],
+    "year": 2002,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/12.8.840",
+    "citation_count": 192,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2022453863",
+    "title": "Individual differences in working memory capacity and learning: Evidence from the serial reaction time task",
+    "authors": [
+      "Nash Unsworth",
+      "Randall W. Engle"
+    ],
+    "year": 2005,
+    "journal": "Memory & Cognition",
+    "doi_or_url": "https://doi.org/10.3758/bf03195310",
+    "citation_count": 187,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2161215761",
+    "title": "Relationships among cognition, emotion, and motivation: implications for intervention and neuroplasticity in psychopathology",
+    "authors": [
+      "Laura D. Crocker",
+      "Wendy Heller",
+      "Stacie L. Warren",
+      "Aminda J. O\u2019Hare",
+      "Zachary P. Infantolino",
+      "Gregory A. Miller"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2013.00261",
+    "citation_count": 186,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2133175934",
+    "title": "Response Inhibition Moderates the Relationship Between Implicit Associations and Drinking Behavior",
+    "authors": [
+      "Katrijn Houben",
+      "Re\u00ednout W. Wiers"
+    ],
+    "year": 2009,
+    "journal": "Alcoholism Clinical and Experimental Research",
+    "doi_or_url": "https://doi.org/10.1111/j.1530-0277.2008.00877.x",
+    "citation_count": 186,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -384,6 +2275,54 @@
     "notes": ""
   },
   {
+    "id": "W2160976404",
+    "title": "Pattern of neural responses to verbal fluency shows diagnostic specificity for schizophrenia and bipolar disorder",
+    "authors": [
+      "Sergi G. Costafreda",
+      "Cynthia H.Y. Fu",
+      "Marco Picchioni",
+      "Timothea Toulopoulou",
+      "Colm McDonald",
+      "Eugenia Kravariti",
+      "Muriel Walshe",
+      "Diana Prata",
+      "Robin Murray",
+      "Philip McGuire"
+    ],
+    "year": 2011,
+    "journal": "BMC Psychiatry",
+    "doi_or_url": "https://doi.org/10.1186/1471-244x-11-18",
+    "citation_count": 185,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1986268014",
+    "title": "Task-Dependent Changes in Short-Term Memory in the Prefrontal Cortex",
+    "authors": [
+      "Melissa R. Warden",
+      "Earl K. Miller"
+    ],
+    "year": 2010,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1569-10.2010",
+    "citation_count": 185,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2103146963",
     "title": "From Salience to Saccades: Multiple-Alternative Gated Stochastic Accumulator Model of Visual Search",
     "authors": [
@@ -396,6 +2335,68 @@
     "journal": "Journal of Neuroscience",
     "doi_or_url": "https://doi.org/10.1523/jneurosci.4622-11.2012",
     "citation_count": 184,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2099356077",
+    "title": "Brain Circuit for Cognitive Control Is Shared by Task and Language Switching",
+    "authors": [
+      "Wouter De Baene",
+      "Wouter Duyck",
+      "Marcel Bra\u00df",
+      "Manuel Carreiras"
+    ],
+    "year": 2015,
+    "journal": "Journal of Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1162/jocn_a_00817",
+    "citation_count": 183,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1965680082",
+    "title": "Unexpected Events Induce Motor Slowing via a Brain Mechanism for Action-Stopping with Global Suppressive Effects",
+    "authors": [
+      "Jan R. Wessel",
+      "Adam R. Aron"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3456-13.2013",
+    "citation_count": 183,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2107425470",
+    "title": "Frontal Eye Field Sends Delay Activity Related to Movement, Memory, and Vision to the Superior Colliculus",
+    "authors": [
+      "Marc A. Sommer",
+      "Robert H. Wurtz"
+    ],
+    "year": 2001,
+    "journal": "Journal of Neurophysiology",
+    "doi_or_url": "https://doi.org/10.1152/jn.2001.85.4.1673",
+    "citation_count": 181,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -430,6 +2431,55 @@
     "notes": ""
   },
   {
+    "id": "W1996634195",
+    "title": "Effects of state anxiety on performance using a task-switching paradigm: An investigation of attentional control theory",
+    "authors": [
+      "Nazanin Derakshan",
+      "Sin\u00e9ad Smyth",
+      "Michael W. Eysenck"
+    ],
+    "year": 2009,
+    "journal": "Psychonomic Bulletin & Review",
+    "doi_or_url": "https://doi.org/10.3758/pbr.16.6.1112",
+    "citation_count": 180,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1982755712",
+    "title": "The semantic priming project",
+    "authors": [
+      "Keith A. Hutchison",
+      "David A. Balota",
+      "James H. Neely",
+      "Michael J. Cortese",
+      "Emily R. Cohen\u2010Shikora",
+      "Chi\u2010Shing Tse",
+      "Melvin J. Yap",
+      "Jesse J. Bengson",
+      "Dale Niemeyer",
+      "Erin Michelle Buchanan"
+    ],
+    "year": 2013,
+    "journal": "Behavior Research Methods",
+    "doi_or_url": "https://doi.org/10.3758/s13428-012-0304-z",
+    "citation_count": 178,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2163631290",
     "title": "The role of consciousness in cognitive control and decision making",
     "authors": [
@@ -442,6 +2492,99 @@
     "doi_or_url": "https://doi.org/10.3389/fnhum.2012.00121",
     "citation_count": 178,
     "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2766167500",
+    "title": "Extent of Dorsolateral Prefrontal Cortex Plasticity and Its Association With Working Memory in Patients With Alzheimer Disease",
+    "authors": [
+      "Sanjeev Kumar",
+      "Reza Zomorrodi",
+      "Zaid Ghazala",
+      "Michelle S. Goodman",
+      "Daniel M. Blumberger",
+      "Amay Cheam",
+      "Corinne E. Fischer",
+      "Zafiris J. Daskalakis",
+      "Benoit H. Mulsant",
+      "Bruce G. Pollock",
+      "Tarek K. Rajji"
+    ],
+    "year": 2017,
+    "journal": "JAMA Psychiatry",
+    "doi_or_url": "https://doi.org/10.1001/jamapsychiatry.2017.3292",
+    "citation_count": 178,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2137884548",
+    "title": "The Role of Intact Frontostriatal Circuits in Error Processing",
+    "authors": [
+      "Markus Ullsperger",
+      "D. Yves von Cramon"
+    ],
+    "year": 2006,
+    "journal": "Journal of Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1162/jocn.2006.18.4.651",
+    "citation_count": 177,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2556314056",
+    "title": "Working memory capacity, mind wandering, and creative cognition: An individual-differences investigation into the benefits of controlled versus spontaneous thought.",
+    "authors": [
+      "Bridget A. Smeekens",
+      "Michael J. Kane"
+    ],
+    "year": 2016,
+    "journal": "Psychology of Aesthetics Creativity and the Arts",
+    "doi_or_url": "https://doi.org/10.1037/aca0000046",
+    "citation_count": 175,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2089672334",
+    "title": "Causal Interactions Within a Frontal-Cingulate-Parietal Network During Cognitive Control: Convergent Evidence from a Multisite\u2013Multitask Investigation",
+    "authors": [
+      "Weidong Cai",
+      "Tianwen Chen",
+      "Srikanth Ryali",
+      "John Kochalka",
+      "Chiang\u2010Shan R. Li",
+      "Vinod Menon"
+    ],
+    "year": 2015,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhv046",
+    "citation_count": 175,
+    "is_high_impact": true,
     "open_access": true,
     "used_for": [
       "task_workflow",
@@ -472,6 +2615,30 @@
     "notes": ""
   },
   {
+    "id": "W2170820568",
+    "title": "Neuroanatomical correlates of executive functions in children and adolescents: A magnetic resonance imaging (MRI) study of cortical thickness",
+    "authors": [
+      "Christian K. Tamnes",
+      "Ylva \u00d8stby",
+      "Kristine B. Walhovd",
+      "Lars T. Westlye",
+      "Paulina Due\u2010T\u00f8nnessen",
+      "Anders M. Fjell"
+    ],
+    "year": 2010,
+    "journal": "Neuropsychologia",
+    "doi_or_url": "https://doi.org/10.1016/j.neuropsychologia.2010.04.024",
+    "citation_count": 174,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2033626300",
     "title": "Nicotine and Behavioral Markers of Risk for Schizophrenia A Double-Blind, Placebo-Controlled, Cross-Over Study",
     "authors": [
@@ -491,2212 +2658,16 @@
     "notes": ""
   },
   {
-    "id": "W2123494653",
-    "title": "The Consortium on the Genetics of Endophenotypes in Schizophrenia: Model Recruitment, Assessment, and Endophenotyping Methods for a Multisite Collaboration",
-    "authors": [
-      "Monica E. Calkins",
-      "Dorcas J. Dobie",
-      "Kristin S. Cadenhead",
-      "Ann Olincy",
-      "Robert Freedman",
-      "Michael F. Green",
-      "Tiffany A. Greenwood",
-      "Raquel E. Gur",
-      "Ruben C Gur",
-      "Gregory A. Light",
-      "James Mintz",
-      "K.H. Nuechterlein"
-    ],
-    "year": 2006,
-    "journal": "Schizophrenia Bulletin",
-    "doi_or_url": "https://doi.org/10.1093/schbul/sbl044",
-    "citation_count": 160,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2014912481",
-    "title": "Covert Reorienting and Inhibition of Return: An Event-Related fMRI Study",
-    "authors": [
-      "J\u00f6ran Lepsien",
-      "Stefan Pollmann"
-    ],
-    "year": 2002,
-    "journal": "Journal of Cognitive Neuroscience",
-    "doi_or_url": "https://doi.org/10.1162/089892902317236795",
-    "citation_count": 159,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2024645288",
-    "title": "Monkey Dorsolateral Prefrontal Cortex Sends Task-Selective Signals Directly to the Superior Colliculus",
-    "authors": [
-      "Kevin Johnston",
-      "Stefan Everling"
-    ],
-    "year": 2006,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.4101-06.2006",
-    "citation_count": 145,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2078252591",
-    "title": "Sensory system interactions during simultaneous vestibular and visual stimulation in PET",
-    "authors": [
-      "Angela Deutschl\u00e4nder",
-      "Sandra Bense",
-      "Thomas Stephan",
-      "Markus Schwaiger",
-      "Thomas Brandt",
-      "Marianne Dieterich"
-    ],
-    "year": 2002,
-    "journal": "Human Brain Mapping",
-    "doi_or_url": "https://doi.org/10.1002/hbm.10030",
-    "citation_count": 142,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2048623403",
-    "title": "Inhibitory control of attention declines more than working memory during normal aging",
-    "authors": [
-      "John A. Sweeney"
-    ],
-    "year": 2001,
-    "journal": "Neurobiology of Aging",
-    "doi_or_url": "https://doi.org/10.1016/s0197-4580(00)00175-5",
-    "citation_count": 142,
-    "is_high_impact": false,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1988332252",
-    "title": "The Disturbance of Gaze in Progressive Supranuclear Palsy: Implications for Pathogenesis",
-    "authors": [
-      "Athena L. Chen",
-      "David E. Riley",
-      "Susan A. King",
-      "Anand C. Joshi",
-      "Alessandro Serra",
-      "Ke Liao",
-      "Mark L. Cohen",
-      "Jorge Otero\u2010Millan",
-      "Susana Mart\u00ednez\u2010Conde",
-      "Michael Strupp",
-      "Richard Leigh"
-    ],
-    "year": 2010,
-    "journal": "Frontiers in Neurology",
-    "doi_or_url": "https://doi.org/10.3389/fneur.2010.00147",
-    "citation_count": 141,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2142768797",
-    "title": "Minnesota Twin Family Study",
-    "authors": [
-      "William G. Iacono",
-      "Matt McGue"
-    ],
-    "year": 2002,
-    "journal": "Twin Research",
-    "doi_or_url": "https://doi.org/10.1375/136905202320906327",
-    "citation_count": 138,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2082566304",
-    "title": "Effects of warning signals and fixation point offsets on the latencies of pro- versus antisaccades: implications for an interpretation of the gap effect",
-    "authors": [
-      "Patricia A. Reuter\u2010Lorenz",
-      "Heather M. Oonk",
-      "Lisa L. Barnes",
-      "Harriet Hughes"
-    ],
-    "year": 1995,
-    "journal": "Experimental Brain Research",
-    "doi_or_url": "https://doi.org/10.1007/bf00231715",
-    "citation_count": 138,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2070369951",
-    "title": "Association Analysis of 94 Candidate Genes and Schizophrenia-Related Endophenotypes",
-    "authors": [
-      "Tiffany A. Greenwood",
-      "Gregory A. Light",
-      "Neal R. Swerdlow",
-      "Allen D. Radant",
-      "David Braff"
-    ],
-    "year": 2012,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0029630",
-    "citation_count": 137,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1989872874",
-    "title": "Working Memory and the Suppression of Reflexive Saccades",
-    "authors": [
-      "Jason P. Mitchell",
-      "C. Neil Macrae",
-      "Iain D. Gilchrist"
-    ],
-    "year": 2002,
-    "journal": "Journal of Cognitive Neuroscience",
-    "doi_or_url": "https://doi.org/10.1162/089892902317205357",
-    "citation_count": 132,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2072117113",
-    "title": "Inhibitory processes in adults with persistent childhood onset ADHD.",
-    "authors": [
-      "Joel T. Nigg",
-      "Karin M. Butler",
-      "Cynthia Huang\u2010Pollock",
-      "John M. Henderson"
-    ],
-    "year": 2002,
-    "journal": "Journal of Consulting and Clinical Psychology",
-    "doi_or_url": "https://doi.org/10.1037/0022-006x.70.1.153",
-    "citation_count": 131,
-    "is_high_impact": false,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2075236953",
-    "title": "Suppression of reflexive saccades in younger and older adults: Age comparisons on an antisaccade task",
-    "authors": [
-      "Karin M. Butler",
-      "Rose T. Zacks",
-      "John M. Henderson"
-    ],
-    "year": 1999,
-    "journal": "Memory & Cognition",
-    "doi_or_url": "https://doi.org/10.3758/bf03211552",
-    "citation_count": 129,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2923905540",
-    "title": "Functional ultrasound imaging of the brain reveals propagation of task-related brain activity in behaving primates",
-    "authors": [
-      "Alexandre Dizeux",
-      "Marc Gesnik",
-      "Harry Ahnine",
-      "K\u00e9vin Blaize",
-      "Fabrice Arcizet",
-      "Serge Picaud",
-      "Jos\u00e9\u2010Alain Sahel",
-      "Thomas Deffieux",
-      "Pierre Pouget",
-      "Micka\u00ebl Tanter"
-    ],
-    "year": 2019,
-    "journal": "Nature Communications",
-    "doi_or_url": "https://doi.org/10.1038/s41467-019-09349-w",
-    "citation_count": 129,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2102021451",
-    "title": "Dynamics of Single Neuron Activity in Monkey Primary Motor Cortex Related to Sensorimotor Transformation",
-    "authors": [
-      "Jun Zhang",
-      "Alexa Riehle",
-      "Jean Requin",
-      "Sylvan Kornblum"
-    ],
-    "year": 1997,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.17-06-02227.1997",
-    "citation_count": 128,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2028552557",
-    "title": "Proactive Inhibitory Control and Attractor Dynamics in Countermanding Action: A Spiking Neural Circuit Model",
-    "authors": [
-      "Chung\u2010Chuan Lo",
-      "Leanne Boucher",
-      "Martin Par\u00e9",
-      "Jeffrey D. Schall",
-      "X.-J. Wang"
-    ],
-    "year": 2009,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.6164-08.2009",
-    "citation_count": 124,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2090478427",
-    "title": "The Maturation of Task Set-Related Activation Supports Late Developmental Improvements in Inhibitory Control",
-    "authors": [
-      "Katerina Velanova",
-      "Mark E. Wheeler",
-      "Beatr\u00edz Luna"
-    ],
-    "year": 2009,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1579-09.2009",
-    "citation_count": 122,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2118322392",
-    "title": "The Influence of Auditory and Visual Distractors on Human Orienting Gaze Shifts",
-    "authors": [
-      "Brian D. Corneil",
-      "Douglas P. Munoz"
-    ],
-    "year": 1996,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.16-24-08193.1996",
-    "citation_count": 122,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2225782711",
-    "title": "Influence of Stimulus Eccentricity and Direction on Characteristics of Pro- and Antisaccades in Non-Human Primates",
-    "authors": [
-      "Andrew H. Bell",
-      "Stefan Everling",
-      "Douglas P. Munoz"
-    ],
-    "year": 2000,
-    "journal": "Journal of Neurophysiology",
-    "doi_or_url": "https://doi.org/10.1152/jn.2000.84.5.2595",
-    "citation_count": 122,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1677064858",
-    "title": "Deficits in reflexive covert attention following cerebellar injury",
-    "authors": [
-      "Christopher L. Striemer",
-      "David Cantelmi",
-      "Michael D. Cusimano",
-      "James Danckert",
-      "Tom A. Schweizer"
-    ],
-    "year": 2015,
-    "journal": "Frontiers in Human Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnhum.2015.00428",
-    "citation_count": 121,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2140930200",
-    "title": "Eye movements in monkeys with local dopamine depletion in the caudate nucleus. II. Deficits in voluntary saccades",
-    "authors": [
-      "A. A. Kori",
-      "Nobuo Miyashita",
-      "M. Kato",
-      "Okihide Hikosaka",
-      "S Usui",
-      "Masaru Matsumura"
-    ],
-    "year": 1995,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.15-01-00928.1995",
-    "citation_count": 120,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2006938939",
-    "title": "Quantitative meta-analysis of fMRI and PET studies reveals consistent activation in fronto-striatal-parietal regions and cerebellum during antisaccades and prosaccades",
-    "authors": [
-      "Sharna D. Jamadar",
-      "Joanne Fielding",
-      "Gary F. Egan"
-    ],
-    "year": 2013,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2013.00749",
-    "citation_count": 120,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2038016380",
-    "title": "Inhibitory processes in toddlers: a latent-variable approach",
-    "authors": [
-      "Elena Gandolfi",
-      "Paola Viterbori",
-      "Laura Traverso",
-      "Maria Carmen Usai"
-    ],
-    "year": 2014,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.00381",
-    "citation_count": 114,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2175117977",
-    "title": "Different decision deficits impair response inhibition in progressive supranuclear palsy and Parkinson\u2019s disease",
-    "authors": [
-      "Jiaxiang Zhang",
-      "Timothy Rittman",
-      "Cristina Nombela",
-      "Alessandro F. Fois",
-      "Ian Coyle\u2010Gilchrist",
-      "Roger A. Barker",
-      "Laura E. Hughes",
-      "James B. Rowe"
-    ],
-    "year": 2015,
-    "journal": "Brain",
-    "doi_or_url": "https://doi.org/10.1093/brain/awv331",
-    "citation_count": 112,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2053184611",
-    "title": "Fetal Alcohol Spectrum Disorders: Recent Neuroimaging Findings",
-    "authors": [
-      "Eileen M. Moore",
-      "Robyn Migliorini",
-      "M. Alejandra Infante",
-      "Edward P. Riley"
-    ],
-    "year": 2014,
-    "journal": "Current Developmental Disorders Reports",
-    "doi_or_url": "https://doi.org/10.1007/s40474-014-0020-8",
-    "citation_count": 110,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1978413093",
-    "title": "Integration of Visuospatial and Effector Information during Symbolically Cued Limb Movements in Monkey Lateral Intraparietal Area",
-    "authors": [
-      "Jeff Oristaglio",
-      "David M. Schneider",
-      "Puiu F. Balan",
-      "Jacqueline Gottlieb"
-    ],
-    "year": 2006,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1779-06.2006",
-    "citation_count": 106,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2108076489",
-    "title": "Visuomotor Functions in the Frontal Lobe",
-    "authors": [
-      "Jeffrey D. Schall"
-    ],
-    "year": 2015,
-    "journal": "Annual Review of Vision Science",
-    "doi_or_url": "https://doi.org/10.1146/annurev-vision-082114-035317",
-    "citation_count": 103,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2168996758",
-    "title": "The role of the ventrolateral frontal cortex in inhibitory oculomotor control",
-    "authors": [
-      "Timothy L. Hodgson",
-      "M. Chamberlain",
-      "Benjamin A. Parris",
-      "Martin James",
-      "Nicholas J. Gutowski",
-      "Masud Husain",
-      "Christopher Kennard"
-    ],
-    "year": 2007,
-    "journal": "Brain",
-    "doi_or_url": "https://doi.org/10.1093/brain/awm064",
-    "citation_count": 102,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2006782584",
-    "title": "Sleep Deprivation Disrupts Prepulse Inhibition and Induces Psychosis-Like Symptoms in Healthy Humans",
-    "authors": [
-      "Nadine Petrovsky",
-      "Ulrich Ettinger",
-      "Annie E. Hill",
-      "L. Frenzel",
-      "Inga Meyh\u00f6fer",
-      "Michael Wagner",
-      "J. Backhaus",
-      "Veena Kumari"
-    ],
-    "year": 2014,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.0904-14.2014",
-    "citation_count": 102,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2015766511",
-    "title": "Medial Versus Lateral Frontal Lobe Contributions to Voluntary Saccade Control as Revealed by the Study of Patients with Frontal Lobe Degeneration",
-    "authors": [
-      "Adam L. Boxer",
-      "Siobhan Garbutt",
-      "Katherine P. Rankin",
-      "Joanna Hellmuth",
-      "John Neuhaus",
-      "Bruce L. Miller",
-      "Stephen G. Lisberger"
-    ],
-    "year": 2006,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.0549-06.2006",
-    "citation_count": 101,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2094133209",
-    "title": "Second language proficiency modulates conflict-monitoring in an oculomotor Stroop task: evidence from Hindi-English bilinguals",
-    "authors": [
-      "Niharika Singh",
-      "Ramesh Kumar Mishra"
-    ],
-    "year": 2013,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2013.00322",
-    "citation_count": 99,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2097408583",
-    "title": "Saccadic Inhibition Reveals the Timing of Automatic and Voluntary Signals in the Human Brain",
-    "authors": [
-      "Aline Bompas",
-      "Petroc Sumner"
-    ],
-    "year": 2011,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.2234-11.2011",
-    "citation_count": 98,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1982022975",
-    "title": "A competitive integration model of exogenous and endogenous eye movements",
-    "authors": [
-      "Martijn Meeter",
-      "Stefan Van der Stigchel",
-      "Jan Theeuwes"
-    ],
-    "year": 2010,
-    "journal": "Biological Cybernetics",
-    "doi_or_url": "https://doi.org/10.1007/s00422-010-0365-y",
-    "citation_count": 98,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1546698346",
-    "title": "Advances in endophenotyping schizophrenia",
-    "authors": [
-      "David Braff",
-      "Tiffany A. Greenwood",
-      "Neal R. Swerdlow",
-      "Gregory A. Light",
-      "Nicholas J. Schork"
-    ],
-    "year": 2008,
-    "journal": "World Psychiatry",
-    "doi_or_url": "https://doi.org/10.1002/j.2051-5545.2008.tb00140.x",
-    "citation_count": 98,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1528257195",
-    "title": "Executive deficits detected in mild Alzheimer's disease using the antisaccade task",
-    "authors": [
-      "Liam D. Kaufman",
-      "Jay Pratt",
-      "Brian Levine",
-      "Sandra E. Black"
-    ],
-    "year": 2011,
-    "journal": "Brain and Behavior",
-    "doi_or_url": "https://doi.org/10.1002/brb3.28",
-    "citation_count": 94,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2166152046",
-    "title": "Functional organisation of saccades and antisaccades in the frontal lobe in humans: a study with echo planar functional magnetic resonance imaging",
-    "authors": [
-      "Ren\u00e9 M. M\u00fcri",
-      "O. Heid",
-      "Arto C. Nirkko",
-      "Christoph Ozdoba",
-      "Jacques Felblinger",
-      "Gerhard Schroth",
-      "Christian He\u00df"
-    ],
-    "year": 1998,
-    "journal": "Journal of Neurology Neurosurgery & Psychiatry",
-    "doi_or_url": "https://doi.org/10.1136/jnnp.65.3.374",
-    "citation_count": 94,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2085851893",
-    "title": "A Microcircuit Model of the Frontal Eye Fields",
-    "authors": [
-      "Jakob Heinzle",
-      "K. Hepp",
-      "Kevan A Martin"
-    ],
-    "year": 2007,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.0974-07.2007",
-    "citation_count": 91,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2405322338",
-    "title": "Implicitly learned suppression of irrelevant spatial locations",
-    "authors": [
-      "Andrew B. Leber",
-      "Rachael Gwinn",
-      "Yoolim Hong",
-      "Ryan J. O\u2019Toole"
-    ],
-    "year": 2016,
-    "journal": "Psychonomic Bulletin & Review",
-    "doi_or_url": "https://doi.org/10.3758/s13423-016-1065-y",
-    "citation_count": 89,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1998208785",
-    "title": "Reading \u201cSun\u201d and Looking Up: The Influence of Language on Saccadic Eye Movements in the Vertical Dimension",
-    "authors": [
-      "Carolin Dudschig",
-      "Jan L. Souman",
-      "Martin Lachmair",
-      "Irmgard de la Vega",
-      "Barbara Kaup"
-    ],
-    "year": 2013,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0056872",
-    "citation_count": 88,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2083390073",
-    "title": "Attention bias for chocolate increases chocolate consumption \u2013 An attention bias modification study",
-    "authors": [
-      "Jessica Werthmann",
-      "Matt Field",
-      "Anne Roefs",
-      "Chantal Nederkoorn",
-      "Anita Jansen"
-    ],
-    "year": 2013,
-    "journal": "Journal of Behavior Therapy and Experimental Psychiatry",
-    "doi_or_url": "https://doi.org/10.1016/j.jbtep.2013.09.009",
-    "citation_count": 88,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2120882215",
-    "title": "Monkey Prefrontal Cortical Pyramidal and Putative Interneurons Exhibit Differential Patterns of Activity Between Prosaccade and Antisaccade Tasks",
-    "authors": [
-      "Kevin Johnston",
-      "Joseph F. X. DeSouza",
-      "Stefan Everling"
-    ],
-    "year": 2009,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.5953-08.2009",
-    "citation_count": 88,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2067392811",
-    "title": "Superior Colliculus Inactivation Causes Stable Offsets in Eye Position during Tracking",
-    "authors": [
-      "Ziad M. Hafed",
-      "Laurent Goffart",
-      "Richard J. Krauzlis"
-    ],
-    "year": 2008,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1317-08.2008",
-    "citation_count": 88,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2013314169",
-    "title": "Dopamine-Mediated Learning and Switching in Cortico-Striatal Circuit Explain Behavioral Changes in Reinforcement Learning",
-    "authors": [
-      "Simon Hong",
-      "Okihide Hikosaka"
-    ],
-    "year": 2011,
-    "journal": "Frontiers in Behavioral Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnbeh.2011.00015",
-    "citation_count": 84,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2069531242",
-    "title": "Cortical Neurodynamics of Inhibitory Control",
-    "authors": [
-      "Kai Hwang",
-      "Avniel Singh Ghuman",
-      "Dara S. Manoach",
-      "Stephanie R. Jones",
-      "Beatr\u00edz Luna"
-    ],
-    "year": 2014,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.4889-13.2014",
-    "citation_count": 81,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1979988111",
-    "title": "Attentional Facilitation throughout Human Visual Cortex Lingers in Retinotopic Coordinates after Eye Movements",
-    "authors": [
-      "Julie D. Golomb",
-      "Alyssa Nguyen-Phuc",
-      "James A. Mazer",
-      "Gregory McCarthy",
-      "Marvin M. Chun"
-    ],
-    "year": 2010,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1546-10.2010",
-    "citation_count": 81,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2139191059",
-    "title": "Adaptive modification of saccade amplitude in Parkinson's disease",
-    "authors": [
-      "Michael R. MacAskill"
-    ],
-    "year": 2002,
-    "journal": "Brain",
-    "doi_or_url": "https://doi.org/10.1093/brain/awf168",
-    "citation_count": 81,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2122281609",
-    "title": "Neurobehavioral Abnormalities in First-Degree Relatives of Individuals With Autism",
-    "authors": [
-      "Matthew W. Mosconi",
-      "Margaret Kay",
-      "Anna-Maria D\u2019Cruz",
-      "Stephen J. Guter",
-      "Kush Kapur",
-      "Carol Macmillan",
-      "Lisa D. Stanford",
-      "John A. Sweeney"
-    ],
-    "year": 2010,
-    "journal": "Archives of General Psychiatry",
-    "doi_or_url": "https://doi.org/10.1001/archgenpsychiatry.2010.87",
-    "citation_count": 81,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1972166362",
-    "title": "Internal cognitive control in clinical depression: General but no emotion-specific impairments",
-    "authors": [
-      "Evi De Lissnyder",
-      "Ernst H. W. Koster",
-      "Jonas Everaert",
-      "Rik Schacht",
-      "Dirk Van den Abeele",
-      "Rudi De Raedt"
-    ],
-    "year": 2012,
-    "journal": "Psychiatry Research",
-    "doi_or_url": "https://doi.org/10.1016/j.psychres.2012.04.019",
-    "citation_count": 80,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3081882293",
-    "title": "Parvalbumin <sup>+</sup> and Npas1 <sup>+</sup> Pallidal Neurons Have Distinct Circuit Topology and Function",
-    "authors": [
-      "Arin Pamukcu",
-      "Qiaoling Cui",
-      "Harry S. Xenias",
-      "Brianna L. Berceau",
-      "Elizabeth C. Augustine",
-      "Isabel Fan",
-      "Saivasudha Chalasani",
-      "Adam W. Hantman",
-      "Talia N. Lerner",
-      "Simina M. Boca",
-      "C. Savio Chan"
-    ],
-    "year": 2020,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.0361-20.2020",
-    "citation_count": 79,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2531400938",
-    "title": "Alterations in the functional neural circuitry supporting flexible choice behavior in autism spectrum disorders",
-    "authors": [
-      "Anna-Maria D\u2019Cruz",
-      "Matthew W. Mosconi",
-      "Michael E. Ragozzino",
-      "Edwin H. Cook",
-      "John A. Sweeney"
-    ],
-    "year": 2016,
-    "journal": "Translational Psychiatry",
-    "doi_or_url": "https://doi.org/10.1038/tp.2016.161",
-    "citation_count": 79,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2125523101",
-    "title": "The gap effect for eye and hand movements",
-    "authors": [
-      "Harold Bekkering",
-      "Jay Pratt",
-      "Richard A. Abrams"
-    ],
-    "year": 1996,
-    "journal": "Perception & Psychophysics",
-    "doi_or_url": "https://doi.org/10.3758/bf03213095",
-    "citation_count": 77,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1967528082",
-    "title": "Attentional capture and aging: Implications for visual search performance and oculomotor control.",
-    "authors": [
-      "Arthur F. Kramer",
-      "Sowon Hahn",
-      "David E. Irwin",
-      "Jan Theeuwes"
-    ],
-    "year": 1999,
-    "journal": "Psychology and Aging",
-    "doi_or_url": "https://doi.org/10.1037//0882-7974.14.1.135",
-    "citation_count": 76,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2091218248",
-    "title": "Human Posterior Parietal Cortex Plans Where to Reach and What to Avoid",
-    "authors": [
-      "Axel Lindner",
-      "Asha Iyer",
-      "Igor Kagan",
-      "Richard A. Andersen"
-    ],
-    "year": 2010,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.2849-09.2010",
-    "citation_count": 75,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2171398360",
-    "title": "Orthography and the Development of Reading Processes: An Eye-Movement Study of Chinese and English",
-    "authors": [
-      "Gang Feng",
-      "Kevin F. Miller",
-      "Hua Shu",
-      "Houcan Zhang"
-    ],
-    "year": 2009,
-    "journal": "Child Development",
-    "doi_or_url": "https://doi.org/10.1111/j.1467-8624.2009.01293.x",
-    "citation_count": 75,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2781502227",
-    "title": "Methods for chair restraint and training of the common marmoset on oculomotor tasks",
-    "authors": [
-      "Kevin Johnston",
-      "Kevin Barker",
-      "Lauren K Hayrynen Schaeffer",
-      "David J. Schaeffer",
-      "Stefan Everling"
-    ],
-    "year": 2018,
-    "journal": "Journal of Neurophysiology",
-    "doi_or_url": "https://doi.org/10.1152/jn.00866.2017",
-    "citation_count": 74,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2405116817",
-    "title": "Human express saccade makers are impaired at suppressing visually evoked saccades",
-    "authors": [
-      "Monica Biscaldi",
-      "B. Fischer",
-      "Volker Stuhr"
-    ],
-    "year": 1996,
-    "journal": "Journal of Neurophysiology",
-    "doi_or_url": "https://doi.org/10.1152/jn.1996.76.1.199",
-    "citation_count": 74,
-    "is_high_impact": false,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2109611974",
-    "title": "Distinctive features of microsaccades in Alzheimer\u2019s disease and in mild cognitive impairment",
-    "authors": [
-      "Zo\u0131\u0308 Kapoula",
-      "Qing Yang",
-      "Jorge Otero\u2010Millan",
-      "Shifu Xiao",
-      "Stephen L. Macknik",
-      "Alexandre Lang",
-      "Marc Verny",
-      "Susana Mart\u00ednez\u2010Conde"
-    ],
-    "year": 2013,
-    "journal": "AGE",
-    "doi_or_url": "https://doi.org/10.1007/s11357-013-9582-3",
-    "citation_count": 73,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1964183432",
-    "title": "Neural correlates of saccadic inhibition in healthy elderly and patients with amnestic mild cognitive impairment",
-    "authors": [
-      "Karolina Alichniewicz",
-      "Florian Brunner",
-      "Hans H. Kl\u00fcnemann",
-      "Mark W. Greenlee"
-    ],
-    "year": 2013,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2013.00467",
-    "citation_count": 71,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1510646738",
-    "title": "The disengagement of visual attention in Alzheimer's disease: a longitudinal eye-tracking study",
-    "authors": [
-      "Trevor J. Crawford",
-      "Alex Devereaux",
-      "Steve Higham",
-      "Claire Kelly"
-    ],
-    "year": 2015,
-    "journal": "Frontiers in Aging Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnagi.2015.00118",
-    "citation_count": 71,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1969283716",
-    "title": "Neurochemical Enhancement of Conscious Error Awareness",
-    "authors": [
-      "Robert Hester",
-      "L. Sanjay Nandam",
-      "Redmond G O\u2019Connell",
-      "Joe Wagner",
-      "Mark Strudwick",
-      "Pradeep J. Nathan",
-      "Jason B. Mattingley",
-      "Mark A. Bellgrove"
-    ],
-    "year": 2012,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.4052-11.2012",
-    "citation_count": 71,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2108403282",
-    "title": "Thalamic mediodorsal nucleus and its participation in spatial working memory processes: comparison with the prefrontal cortex",
-    "authors": [
-      "Shintaro Funahashi"
-    ],
-    "year": 2013,
-    "journal": "Frontiers in Systems Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnsys.2013.00036",
-    "citation_count": 67,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2969156666",
-    "title": "Oscillatory Mechanisms of Preparing for Visual Distraction",
-    "authors": [
-      "Ingmar Engbert Jacob de Vries",
-      "Ece Savran",
-      "Joram van Driel",
-      "Christian N. L. Olivers"
-    ],
-    "year": 2019,
-    "journal": "Journal of Cognitive Neuroscience",
-    "doi_or_url": "https://doi.org/10.1162/jocn_a_01460",
-    "citation_count": 66,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3187284521",
-    "title": "A Robust Machine Learning Based Framework for the Automated Detection of ADHD Using Pupillometric Biomarkers and Time Series Analysis",
-    "authors": [
-      "William Das",
-      "Shubh Khanna"
-    ],
-    "year": 2021,
-    "journal": "Scientific Reports",
-    "doi_or_url": "https://doi.org/10.1038/s41598-021-95673-5",
-    "citation_count": 64,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1968035552",
-    "title": "Developmental improvements in voluntary control of behavior: Effect of preparation in the fronto-parietal network?",
-    "authors": [
-      "Nadia Alahyane",
-      "Donald C. Brien",
-      "Brian C. Coe",
-      "Patrick W. Stroman",
-      "Douglas P. Munoz"
-    ],
-    "year": 2014,
-    "journal": "NeuroImage",
-    "doi_or_url": "https://doi.org/10.1016/j.neuroimage.2014.03.008",
-    "citation_count": 64,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2938402066",
-    "title": "Individual differences in baseline oculometrics: Examining variation in baseline pupil diameter, spontaneous eye blink rate, and fixation stability",
+    "id": "W2797153415",
+    "title": "Tracking arousal state and mind wandering with pupillometry",
     "authors": [
       "Nash Unsworth",
-      "Matthew K. Robison",
-      "Ashley L. Miller"
+      "Matthew K. Robison"
     ],
-    "year": 2019,
+    "year": 2018,
     "journal": "Cognitive Affective & Behavioral Neuroscience",
-    "doi_or_url": "https://doi.org/10.3758/s13415-019-00709-z",
-    "citation_count": 63,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2581161881",
-    "title": "Electrical Microstimulation of the Pulvinar Biases Saccade Choices and Reaction Times in a Time-Dependent Manner",
-    "authors": [
-      "Adan\u2010Ulises Dominguez\u2010Vargas",
-      "Lukas Schneider",
-      "Melanie Wilke",
-      "Igor Kagan"
-    ],
-    "year": 2017,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1984-16.2016",
-    "citation_count": 63,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2317507209",
-    "title": "Transient Pupil Dilation after Subsaccadic Microstimulation of Primate Frontal Eye Fields",
-    "authors": [
-      "Sebastian Lehmann",
-      "Brian D. Corneil"
-    ],
-    "year": 2016,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.4264-15.2016",
-    "citation_count": 63,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1992137693",
-    "title": "Face age modulates gaze following in young adults",
-    "authors": [
-      "Francesca Ciardo",
-      "Barbara F. M. Marino",
-      "Rossana Actis-Grosso",
-      "Angela Rossetti",
-      "Paola Ricciardelli"
-    ],
-    "year": 2014,
-    "journal": "Scientific Reports",
-    "doi_or_url": "https://doi.org/10.1038/srep04746",
-    "citation_count": 62,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1875784921",
-    "title": "Altered connectivity of the dorsal and ventral visual regions in dyslexic children: a resting-state fMRI study",
-    "authors": [
-      "Wei Zhou",
-      "Zhichao Xia",
-      "Yanchao Bi",
-      "Hua Shu"
-    ],
-    "year": 2015,
-    "journal": "Frontiers in Human Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnhum.2015.00495",
-    "citation_count": 61,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2119681963",
-    "title": "Macaque Dorsolateral Prefrontal Cortex Does not Suppress Saccade-Related Activity in the Superior Colliculus",
-    "authors": [
-      "Kevin Johnston",
-      "Michael J. Koval",
-      "Stephen G. Lomber",
-      "Stefan Everling"
-    ],
-    "year": 2013,
-    "journal": "Cerebral Cortex",
-    "doi_or_url": "https://doi.org/10.1093/cercor/bhs424",
-    "citation_count": 61,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2082777365",
-    "title": "Deficits in Eye Movement Control in Children With Fetal Alcohol Spectrum Disorders",
-    "authors": [
-      "Courtney R. Green",
-      "Douglas P. Munoz",
-      "Sarah M. Nikkel",
-      "James N. Reynolds"
-    ],
-    "year": 2007,
-    "journal": "Alcoholism Clinical and Experimental Research",
-    "doi_or_url": "https://doi.org/10.1111/j.1530-0277.2006.00335.x",
-    "citation_count": 60,
-    "is_high_impact": false,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2050206792",
-    "title": "Impaired action control in schizophrenia: The role of volitional saccade initiation",
-    "authors": [
-      "Benedikt Reuter",
-      "Markus J\u00e4ger",
-      "Ronald Bottlender",
-      "Norbert Kathmann"
-    ],
-    "year": 2007,
-    "journal": "Neuropsychologia",
-    "doi_or_url": "https://doi.org/10.1016/j.neuropsychologia.2006.12.006",
-    "citation_count": 60,
-    "is_high_impact": false,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2081428007",
-    "title": "Roles of the Primate Motor Thalamus in the Generation of Antisaccades",
-    "authors": [
-      "Jun Kunimatsu",
-      "Masaki Tanaka"
-    ],
-    "year": 2010,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.0406-10.2010",
-    "citation_count": 60,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2092289085",
-    "title": "Prefrontal Cortex Deactivation in Macaques Alters Activity in the Superior Colliculus and Impairs Voluntary Control of Saccades",
-    "authors": [
-      "Michael J. Koval",
-      "Stephen G. Lomber",
-      "Stefan Everling"
-    ],
-    "year": 2011,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1258-11.2011",
-    "citation_count": 59,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1994542381",
-    "title": "Microstimulation of Frontal Cortex Can Reorder a Remembered Spatial Sequence",
-    "authors": [
-      "Mark H. Histed",
-      "Earl K. Miller"
-    ],
-    "year": 2006,
-    "journal": "PLoS Biology",
-    "doi_or_url": "https://doi.org/10.1371/journal.pbio.0040134",
-    "citation_count": 59,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2139724215",
-    "title": "Cognitive Deterioration and Functional Compensation in ALS Measured with fMRI Using an Inhibitory Task",
-    "authors": [
-      "Kelsey Witiuk",
-      "Juan Fern\u00e1ndez-Ru\u00edz",
-      "Ryan McKee",
-      "Nadia Alahyane",
-      "Brian C. Coe",
-      "Michel Melanson",
-      "Douglas P. Munoz"
-    ],
-    "year": 2014,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1111-14.2014",
-    "citation_count": 59,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2909266492",
-    "title": "Alpha Oscillations Modulate Preparatory Activity in Marmoset Area 8Ad",
-    "authors": [
-      "Kevin Johnston",
-      "Liya Ma",
-      "Lauren K Hayrynen Schaeffer",
-      "Stefan Everling"
-    ],
-    "year": 2019,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.2703-18.2019",
-    "citation_count": 59,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2019054276",
-    "title": "A Functional and Structural Investigation of the Human Fronto-Basal Volitional Saccade Network",
-    "authors": [
-      "Sebastiaan F.W. Neggers",
-      "Rosanne M. van Diepen",
-      "Bram B. Zandbelt",
-      "Matthijs Vink",
-      "Ren\u00e9 C.W. Mandl",
-      "Tjerk P. Gutteling"
-    ],
-    "year": 2012,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0029517",
-    "citation_count": 59,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2047059119",
-    "title": "Electrophysiological Explorations of the Bilingual Advantage: Evidence from a Stroop Task",
-    "authors": [
-      "Emily L. Coderre",
-      "Walter J. B. van Heuven"
-    ],
-    "year": 2014,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0103424",
-    "citation_count": 57,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2762503087",
-    "title": "Age related prefrontal compensatory mechanisms for inhibitory control in the antisaccade task",
-    "authors": [
-      "Juan Fern\u00e1ndez-Ru\u00edz",
-      "Alicia Peltsch",
-      "Nadia Alahyane",
-      "Donald C. Brien",
-      "Brian C. Coe",
-      "\u00c1ngeles Garc\u00eda",
-      "Douglas P. Munoz"
-    ],
-    "year": 2017,
-    "journal": "NeuroImage",
-    "doi_or_url": "https://doi.org/10.1016/j.neuroimage.2017.10.001",
-    "citation_count": 56,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2091994247",
-    "title": "Differentiation between Vergence and Saccadic Functional Activity within the Human Frontal Eye Fields and Midbrain Revealed through fMRI",
-    "authors": [
-      "Yelda Alkan",
-      "Bharat B. Biswal",
-      "Tara L. Alvarez"
-    ],
-    "year": 2011,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0025866",
-    "citation_count": 56,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2020907811",
-    "title": "Effect of extended release stimulant-based medications on neuropsychological functioning among adolescents with Attention-Deficit/Hyperactivity Disorder",
-    "authors": [
-      "Hildegard Wilson",
-      "Daniel J. Cox",
-      "R. Lawrence Merkel",
-      "Mary Moore",
-      "David Coghill"
-    ],
-    "year": 2006,
-    "journal": "Archives of Clinical Neuropsychology",
-    "doi_or_url": "https://doi.org/10.1016/j.acn.2006.06.016",
-    "citation_count": 56,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2041408167",
-    "title": "NMDA Antagonist Ketamine Reduces Task Selectivity in Macaque Dorsolateral Prefrontal Neurons and Impairs Performance of Randomly Interleaved Prosaccades and Antisaccades",
-    "authors": [
-      "Kevin Skoblenick",
-      "Stefan Everling"
-    ],
-    "year": 2012,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1510-12.2012",
-    "citation_count": 56,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1964120964",
-    "title": "Orienting of attention and Parkinson's disease: tactile inhibition of return and response inhibition",
-    "authors": [
-      "Ellen Poliakoff"
-    ],
-    "year": 2003,
-    "journal": "Brain",
-    "doi_or_url": "https://doi.org/10.1093/brain/awg210",
-    "citation_count": 55,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1977059195",
-    "title": "Eliminating the cost of task set reconfiguration",
-    "authors": [
-      "Amelia R. Hunt",
-      "Raymond M. Klein"
-    ],
-    "year": 2002,
-    "journal": "Memory & Cognition",
-    "doi_or_url": "https://doi.org/10.3758/bf03194954",
-    "citation_count": 55,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W4310057041",
-    "title": "Eye movement behavior in a real-world virtual reality task reveals ADHD in children",
-    "authors": [
-      "Liya Merzon",
-      "Kati Pettersson",
-      "Eeva T. Aronen",
-      "Hanna Huhdanp\u00e4\u00e4",
-      "Erik Seesj\u00e4rvi",
-      "Linda Henriksson",
-      "W. Joseph MacInnes",
-      "Minna Mannerkoski",
-      "Emiliano Macaluso",
-      "Juha Salmi"
-    ],
-    "year": 2022,
-    "journal": "Scientific Reports",
-    "doi_or_url": "https://doi.org/10.1038/s41598-022-24552-4",
-    "citation_count": 55,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2034604232",
-    "title": "Multicenter validation of a bedside antisaccade task as a measure of executive function",
-    "authors": [
-      "Joanna Hellmuth",
-      "Jacob Mirsky",
-      "Hilary W. Heuer",
-      "Alisa Matlin",
-      "Aria Jafari",
-      "Siobhan Garbutt",
-      "Maya Widmeyer",
-      "Ashley Berhel",
-      "Lena Sinha",
-      "Bruce L. Miller",
-      "Joel H. Kramer",
-      "Adam L. Boxer"
-    ],
-    "year": 2012,
-    "journal": "Neurology",
-    "doi_or_url": "https://doi.org/10.1212/wnl.0b013e318258f785",
-    "citation_count": 54,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2108803222",
-    "title": "Use of Eye Movement Tracking in the Differential Diagnosis of Attention Deficit Hyperactivity Disorder (ADHD) and Reading Disability",
-    "authors": [
-      "Pamela Deans",
-      "Liz O\u2019Laughlin",
-      "Brad S. Brubaker",
-      "Nathan Gay",
-      "Damon Krug"
-    ],
-    "year": 2010,
-    "journal": "Psychology",
-    "doi_or_url": "https://doi.org/10.4236/psych.2010.14032",
-    "citation_count": 53,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2267243353",
-    "title": "Antisaccadic Eye Movements Are Correlated with Corpus Callosum White Matter Mean Diffusivity, Stroop Performance, and Symptom Burden in Mild Traumatic Brain Injury and Concussion",
-    "authors": [
-      "Windsor Kwan\u2010Chun Ting",
-      "Tom A. Schweizer",
-      "Jane Topolovec\u2010Vranic",
-      "Michael D. Cusimano"
-    ],
-    "year": 2016,
-    "journal": "Frontiers in Neurology",
-    "doi_or_url": "https://doi.org/10.3389/fneur.2015.00271",
-    "citation_count": 52,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1990345214",
-    "title": "Saccade impairments in patients with fronto-temporal dementia",
-    "authors": [
-      "Claire Meyniel"
-    ],
-    "year": 2005,
-    "journal": "Journal of Neurology Neurosurgery & Psychiatry",
-    "doi_or_url": "https://doi.org/10.1136/jnnp.2004.060392",
-    "citation_count": 52,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3133091410",
-    "title": "Fixation Duration and Pupil Size as Diagnostic Tools in Parkinson\u2019s Disease",
-    "authors": [
-      "Panagiota Tsitsi",
-      "Mattias Nilsson",
-      "Gustaf \u00d6qvist Seimyr",
-      "Olof Larsson",
-      "Per Svenningsson",
-      "Ioanna Markaki"
-    ],
-    "year": 2021,
-    "journal": "Journal of Parkinson s Disease",
-    "doi_or_url": "https://doi.org/10.3233/jpd-202427",
-    "citation_count": 51,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W4328114456",
-    "title": "Early detection of cognitive decline in Alzheimer\u2019s disease using eye tracking",
-    "authors": [
-      "Shin\u2010ichi Tokushige",
-      "Hideyuki Matsumoto",
-      "Shuichi Matsuda",
-      "Satomi Inomata\u2010Terada",
-      "Naoki Kotsuki",
-      "Masashi Hamada",
-      "Shoji Tsuji",
-      "Yoshikazu Ugawa",
-      "Yasuo Terao"
-    ],
-    "year": 2023,
-    "journal": "Frontiers in Aging Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnagi.2023.1123456",
-    "citation_count": 51,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2066833144",
-    "title": "Presetting Basal Ganglia for Volitional Actions",
-    "authors": [
-      "Masayuki Watanabe",
-      "Douglas P. Munoz"
-    ],
-    "year": 2010,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1738-10.2010",
-    "citation_count": 51,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2273150552",
-    "title": "A Computational Cognitive Biomarker for Early-Stage Huntington\u2019s Disease",
-    "authors": [
-      "Thomas V. Wiecki",
-      "Chrystalina A. Antoniades",
-      "Alexander D. Stevenson",
-      "Christopher Kennard",
-      "Beth Borowsky",
-      "Gail Owen",
-      "Blair R. Leavitt",
-      "Raymund A.C. Roos",
-      "Alexandra D\u00fcrr",
-      "Sarah J. Tabrizi",
-      "Michael J. Frank"
-    ],
-    "year": 2016,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0148409",
-    "citation_count": 51,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2615998697",
-    "title": "Comparing visual search and eye movements in bilinguals and monolinguals",
-    "authors": [
-      "Ileana Ratiu",
-      "Michael C. Hout",
-      "Stephen C. Walenchok",
-      "Tamiko Azuma",
-      "Stephen D. Goldinger"
-    ],
-    "year": 2017,
-    "journal": "Attention Perception & Psychophysics",
-    "doi_or_url": "https://doi.org/10.3758/s13414-017-1328-3",
-    "citation_count": 50,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2161382737",
-    "title": "Impaired filtering of irrelevant information in dysphoria: an ERP study",
-    "authors": [
-      "Max Owens",
-      "Ernst H. W. Koster",
-      "Nazanin Derakshan"
-    ],
-    "year": 2011,
-    "journal": "Social Cognitive and Affective Neuroscience",
-    "doi_or_url": "https://doi.org/10.1093/scan/nsr050",
-    "citation_count": 50,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2080032371",
-    "title": "Amphetamine-Induced Dopamine Release and Neurocognitive Function in Treatment-Naive Adults with ADHD",
-    "authors": [
-      "Mariya V. Cherkasova",
-      "Nazlie Faridi",
-      "Kevin F. Casey",
-      "Gillian A. O\u2019Driscoll",
-      "Lily Hechtman",
-      "Ridha Joober",
-      "Glen B. Baker",
-      "Jennifer Palmer",
-      "Alain Dagher",
-      "Marco Leyton",
-      "Chawki Benkelfat"
-    ],
-    "year": 2013,
-    "journal": "Neuropsychopharmacology",
-    "doi_or_url": "https://doi.org/10.1038/npp.2013.349",
-    "citation_count": 48,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2909387019",
-    "title": "The Effect of Dual Task on Attentional Performance in Children With ADHD",
-    "authors": [
-      "Simona Caldani",
-      "Milena Razuk",
-      "Mathilde Septier",
-      "Jos\u00e9 \u00c2ngelo Barela",
-      "Richard Delorme",
-      "\u00c9ric Acquaviva",
-      "Maria Pia Bucci"
-    ],
-    "year": 2019,
-    "journal": "Frontiers in Integrative Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnint.2018.00067",
-    "citation_count": 47,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2075183205",
-    "title": "Saccadic performance characteristics and the behavioural neurology of Tourette's syndrome",
-    "authors": [
-      "Robert Farber",
-      "Neal R. Swerdlow",
-      "Brett A. Clementz"
-    ],
-    "year": 1999,
-    "journal": "Journal of Neurology Neurosurgery & Psychiatry",
-    "doi_or_url": "https://doi.org/10.1136/jnnp.66.3.305",
-    "citation_count": 47,
+    "doi_or_url": "https://doi.org/10.3758/s13415-018-0594-4",
+    "citation_count": 171,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
