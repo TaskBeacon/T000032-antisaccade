@@ -1,0 +1,959 @@
+task_id: T000032
+generated_at: '2026-02-17T06:58:01Z'
+selection_policy: tiered_mix_high_impact_plus_high_citation_open_access
+citation_threshold: 100
+papers:
+- id: W2171760615
+  title: Frontostriatal Maturation Predicts Cognitive Control Failure to Appetitive
+    Cues in Adolescents
+  authors:
+  - Leah H. Somerville
+  - Todd A. Hare
+  - B.J. Casey
+  year: 2010
+  journal: Journal of Cognitive Neuroscience
+  doi_or_url: https://doi.org/10.1162/jocn.2010.21572
+  citation_count: 520
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2169285522
+  title: 'Inhibitory Control in High-Functioning Autism: Decreased Activation and
+    Underconnectivity in Inhibition Networks'
+  authors:
+  - Rajesh K. Kana
+  - Timothy A. Keller
+  - Nancy J. Minshew
+  - Marcel Adam Just
+  year: 2006
+  journal: Biological Psychiatry
+  doi_or_url: https://doi.org/10.1016/j.biopsych.2006.08.004
+  citation_count: 465
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2163144416
+  title: Immaturities in Reward Processing and Its Influence on Inhibitory Control
+    in Adolescence
+  authors:
+  - Charles F. Geier
+  - Robert Terwilliger
+  - Theresa Teslovich
+  - Katerina Velanova
+  - Beatríz Luna
+  year: 2009
+  journal: Cerebral Cortex
+  doi_or_url: https://doi.org/10.1093/cercor/bhp225
+  citation_count: 391
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2003370843
+  title: Response monitoring, repetitive behaviour and anterior cingulate abnormalities
+    in autism spectrum disorders (ASD)
+  authors:
+  - Katharine N. Thakkar
+  - Frida E. Polli
+  - Robert M. Joseph
+  - David S. Tuch
+  - Nouchine Hadjikhani
+  - Jason J.S. Barton
+  - Dara S. Manoach
+  year: 2008
+  journal: Brain
+  doi_or_url: https://doi.org/10.1093/brain/awn099
+  citation_count: 356
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2071891505
+  title: Oculomotor function in frontotemporal lobar degeneration, related disorders
+    and Alzheimer's disease
+  authors:
+  - Siobhan Garbutt
+  - Alisa Matlin
+  - Joanna Hellmuth
+  - A. Katrin Schenk
+  - Julene K. Johnson
+  - Howard J. Rosen
+  - David Dean
+  - Joel H. Kramer
+  - John Neuhaus
+  - Bruce L. Miller
+  - Stephen G. Lisberger
+  - Adam L. Boxer
+  year: 2008
+  journal: Brain
+  doi_or_url: https://doi.org/10.1093/brain/awn047
+  citation_count: 204
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2108759262
+  title: Neural Correlates of Impulse Control During Stop Signal Inhibition in Cocaine-Dependent
+    Men
+  authors:
+  - Chiang‐Shan R. Li
+  - Cong Huang
+  - Peisi Yan
+  - Zubin Bhagwagar
+  - Verica Milivojevic
+  - Rajita Sinha
+  year: 2007
+  journal: Neuropsychopharmacology
+  doi_or_url: https://doi.org/10.1038/sj.npp.1301568
+  citation_count: 181
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2033626300
+  title: Nicotine and Behavioral Markers of Risk for Schizophrenia A Double-Blind,
+    Placebo-Controlled, Cross-Over Study
+  authors:
+  - Lana Dépatie
+  year: 2002
+  journal: Neuropsychopharmacology
+  doi_or_url: https://doi.org/10.1016/s0893-133x(02)00372-x
+  citation_count: 173
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2014912481
+  title: 'Covert Reorienting and Inhibition of Return: An Event-Related fMRI Study'
+  authors:
+  - Jöran Lepsien
+  - Stefan Pollmann
+  year: 2002
+  journal: Journal of Cognitive Neuroscience
+  doi_or_url: https://doi.org/10.1162/089892902317236795
+  citation_count: 159
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1989872874
+  title: Working Memory and the Suppression of Reflexive Saccades
+  authors:
+  - Jason P. Mitchell
+  - C. Neil Macrae
+  - Iain D. Gilchrist
+  year: 2002
+  journal: Journal of Cognitive Neuroscience
+  doi_or_url: https://doi.org/10.1162/089892902317205357
+  citation_count: 132
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2175117977
+  title: Different decision deficits impair response inhibition in progressive supranuclear
+    palsy and Parkinson’s disease
+  authors:
+  - Jiaxiang Zhang
+  - Timothy Rittman
+  - Cristina Nombela
+  - Alessandro F. Fois
+  - Ian Coyle‐Gilchrist
+  - Roger A. Barker
+  - Laura E. Hughes
+  - James B. Rowe
+  year: 2015
+  journal: Brain
+  doi_or_url: https://doi.org/10.1093/brain/awv331
+  citation_count: 112
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2168996758
+  title: The role of the ventrolateral frontal cortex in inhibitory oculomotor control
+  authors:
+  - Timothy L. Hodgson
+  - M. Chamberlain
+  - Benjamin A. Parris
+  - Martin James
+  - Nicholas J. Gutowski
+  - Masud Husain
+  - Christopher Kennard
+  year: 2007
+  journal: Brain
+  doi_or_url: https://doi.org/10.1093/brain/awm064
+  citation_count: 102
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1552598564
+  title: Resting-state networks show dynamic functional connectivity in awake humans
+    and anesthetized macaques
+  authors:
+  - R. Matthew Hutchison
+  - Thilo Womelsdorf
+  - Joseph S. Gati
+  - Stefan Everling
+  - Ravi S. Menon
+  year: 2012
+  journal: Human Brain Mapping
+  doi_or_url: https://doi.org/10.1002/hbm.22058
+  citation_count: 767
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2104663113
+  title: Neuronal Correlates for Preparatory Set Associated with Pro-Saccades and
+    Anti-Saccades in the Primate Frontal Eye Field
+  authors:
+  - Stefan Everling
+  - Douglas P. Munoz
+  year: 2000
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.20-01-00387.2000
+  citation_count: 564
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1875187353
+  title: Role of Primate Superior Colliculus in Preparation and Execution of Anti-Saccades
+    and Pro-Saccades
+  authors:
+  - Stefan Everling
+  - Michael C. Dorris
+  - Raymond M. Klein
+  - Douglas P. Munoz
+  year: 1999
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.19-07-02740.1999
+  citation_count: 404
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2025651860
+  title: 'Strengthening of Top-Down Frontal Cognitive Control Networks Underlying
+    the Development of Inhibitory Control: A Functional Magnetic Resonance Imaging
+    Effective Connectivity Study'
+  authors:
+  - Kai Hwang
+  - Katerina Velanova
+  - Beatríz Luna
+  year: 2010
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.2825-10.2010
+  citation_count: 313
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2038042469
+  title: 'The reduction of saccadic latency by prior offset of the fixation point:
+    An analysis of the gap effect'
+  authors:
+  - Patricia A. Reuter‐Lorenz
+  - Howard C. Hughes
+  - Robert Fendrich
+  year: 1991
+  journal: Perception & Psychophysics
+  doi_or_url: https://doi.org/10.3758/bf03205036
+  citation_count: 311
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2042624378
+  title: Longitudinal Growth Curves of Brain Function Underlying Inhibitory Control
+    through Adolescence
+  authors:
+  - Sarah J. Ordaz
+  - Will Foran
+  - Katerina Velanova
+  - Beatríz Luna
+  year: 2013
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.1741-13.2013
+  citation_count: 296
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2546818989
+  title: Suppression of overt attentional capture by salient-but-irrelevant color
+    singletons
+  authors:
+  - Nicholas Gaspelin
+  - Carly J. Leonard
+  - Steven J. Luck
+  year: 2016
+  journal: Attention Perception & Psychophysics
+  doi_or_url: https://doi.org/10.3758/s13414-016-1209-1
+  citation_count: 274
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W3211454810
+  title: Frontal eye field, where art thou? Anatomy, function, and non-invasive manipulation
+    of frontal regions involved in eye movements and associated cognitive operations
+  authors:
+  - Marine Vernet
+  - Romain Quentin
+  - Lorena Chanes
+  - Andres Mitsumasu
+  - Antoni Valero‐Cabré
+  year: 2014
+  journal: Frontiers in Integrative Neuroscience
+  doi_or_url: https://doi.org/10.3389/fnint.2014.00066
+  citation_count: 231
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2127625552
+  title: Reward Modulates Attention Independently of Action Value in Posterior Parietal
+    Cortex
+  authors:
+  - Christopher J. Peck
+  - David C. Jangraw
+  - Mototaka Suzuki
+  - Richard Efem
+  - Jacqueline Gottlieb
+  year: 2009
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.1929-09.2009
+  citation_count: 221
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2170638884
+  title: Visual and Anticipatory Bias in Three Cortical Eye Fields of the Monkey during
+    an Adaptive Decision-Making Task
+  authors:
+  - Brian C. Coe
+  - Kazuya Tomihara
+  - Masako Matsuzawa
+  - Okihide Hikosaka
+  year: 2002
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.22-12-05081.2002
+  citation_count: 214
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1964491363
+  title: 'Impulsivity in Binge Eating Disorder: Food Cues Elicit Increased Reward
+    Responses and Disinhibition'
+  authors:
+  - Kathrin Schag
+  - Martin Teufel
+  - Florian Junne
+  - Hubert Preißl
+  - Martin Hautzinger
+  - Stephan Zipfel
+  - Katrin Elisabeth Giel
+  year: 2013
+  journal: PLoS ONE
+  doi_or_url: https://doi.org/10.1371/journal.pone.0076542
+  citation_count: 195
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1974518270
+  title: Common and Differential Ventrolateral Prefrontal Activity during Inhibition
+    of Hand and Eye Movements
+  authors:
+  - Hoi‐Chung Leung
+  - Weidong Cai
+  year: 2007
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.2837-07.2007
+  citation_count: 186
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2103146963
+  title: 'From Salience to Saccades: Multiple-Alternative Gated Stochastic Accumulator
+    Model of Visual Search'
+  authors:
+  - Braden A. Purcell
+  - Jeffrey D. Schall
+  - Gordon D. Logan
+  - Thomas J. Palmeri
+  year: 2012
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.4622-11.2012
+  citation_count: 184
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2163631290
+  title: The role of consciousness in cognitive control and decision making
+  authors:
+  - Simon van Gaal
+  - Floris P. de Lange
+  - Michael X Cohen
+  year: 2012
+  journal: Frontiers in Human Neuroscience
+  doi_or_url: https://doi.org/10.3389/fnhum.2012.00121
+  citation_count: 178
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2140929884
+  title: Cortical Network Dynamics of Perceptual Decision-Making in the Human Brain
+  authors:
+  - Markus Siegel
+  - Andreas K. Engel
+  - Tobias H. Donner
+  year: 2011
+  journal: Frontiers in Human Neuroscience
+  doi_or_url: https://doi.org/10.3389/fnhum.2011.00021
+  citation_count: 174
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2123494653
+  title: 'The Consortium on the Genetics of Endophenotypes in Schizophrenia: Model
+    Recruitment, Assessment, and Endophenotyping Methods for a Multisite Collaboration'
+  authors:
+  - Monica E. Calkins
+  - Dorcas J. Dobie
+  - Kristin S. Cadenhead
+  - Ann Olincy
+  - Robert Freedman
+  - Michael F. Green
+  - Tiffany A. Greenwood
+  - Raquel E. Gur
+  - Ruben C Gur
+  - Gregory A. Light
+  - James Mintz
+  - K.H. Nuechterlein
+  year: 2006
+  journal: Schizophrenia Bulletin
+  doi_or_url: https://doi.org/10.1093/schbul/sbl044
+  citation_count: 160
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2024645288
+  title: Monkey Dorsolateral Prefrontal Cortex Sends Task-Selective Signals Directly
+    to the Superior Colliculus
+  authors:
+  - Kevin Johnston
+  - Stefan Everling
+  year: 2006
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.4101-06.2006
+  citation_count: 145
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2078252591
+  title: Sensory system interactions during simultaneous vestibular and visual stimulation
+    in PET
+  authors:
+  - Angela Deutschländer
+  - Sandra Bense
+  - Thomas Stephan
+  - Markus Schwaiger
+  - Thomas Brandt
+  - Marianne Dieterich
+  year: 2002
+  journal: Human Brain Mapping
+  doi_or_url: https://doi.org/10.1002/hbm.10030
+  citation_count: 142
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1988332252
+  title: 'The Disturbance of Gaze in Progressive Supranuclear Palsy: Implications
+    for Pathogenesis'
+  authors:
+  - Athena L. Chen
+  - David E. Riley
+  - Susan A. King
+  - Anand C. Joshi
+  - Alessandro Serra
+  - Ke Liao
+  - Mark L. Cohen
+  - Jorge Otero‐Millan
+  - Susana Martínez‐Conde
+  - Michael Strupp
+  - Richard Leigh
+  year: 2010
+  journal: Frontiers in Neurology
+  doi_or_url: https://doi.org/10.3389/fneur.2010.00147
+  citation_count: 141
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2142768797
+  title: Minnesota Twin Family Study
+  authors:
+  - William G. Iacono
+  - Matt McGue
+  year: 2002
+  journal: Twin Research
+  doi_or_url: https://doi.org/10.1375/136905202320906327
+  citation_count: 138
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2082566304
+  title: 'Effects of warning signals and fixation point offsets on the latencies of
+    pro- versus antisaccades: implications for an interpretation of the gap effect'
+  authors:
+  - Patricia A. Reuter‐Lorenz
+  - Heather M. Oonk
+  - Lisa L. Barnes
+  - Harriet Hughes
+  year: 1995
+  journal: Experimental Brain Research
+  doi_or_url: https://doi.org/10.1007/bf00231715
+  citation_count: 138
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2070369951
+  title: Association Analysis of 94 Candidate Genes and Schizophrenia-Related Endophenotypes
+  authors:
+  - Tiffany A. Greenwood
+  - Gregory A. Light
+  - Neal R. Swerdlow
+  - Allen D. Radant
+  - David Braff
+  year: 2012
+  journal: PLoS ONE
+  doi_or_url: https://doi.org/10.1371/journal.pone.0029630
+  citation_count: 137
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2075236953
+  title: 'Suppression of reflexive saccades in younger and older adults: Age comparisons
+    on an antisaccade task'
+  authors:
+  - Karin M. Butler
+  - Rose T. Zacks
+  - John M. Henderson
+  year: 1999
+  journal: Memory & Cognition
+  doi_or_url: https://doi.org/10.3758/bf03211552
+  citation_count: 129
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2923905540
+  title: Functional ultrasound imaging of the brain reveals propagation of task-related
+    brain activity in behaving primates
+  authors:
+  - Alexandre Dizeux
+  - Marc Gesnik
+  - Harry Ahnine
+  - Kévin Blaize
+  - Fabrice Arcizet
+  - Serge Picaud
+  - José‐Alain Sahel
+  - Thomas Deffieux
+  - Pierre Pouget
+  - Mickaël Tanter
+  year: 2019
+  journal: Nature Communications
+  doi_or_url: https://doi.org/10.1038/s41467-019-09349-w
+  citation_count: 129
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2102021451
+  title: Dynamics of Single Neuron Activity in Monkey Primary Motor Cortex Related
+    to Sensorimotor Transformation
+  authors:
+  - Jun Zhang
+  - Alexa Riehle
+  - Jean Requin
+  - Sylvan Kornblum
+  year: 1997
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.17-06-02227.1997
+  citation_count: 128
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2028552557
+  title: 'Proactive Inhibitory Control and Attractor Dynamics in Countermanding Action:
+    A Spiking Neural Circuit Model'
+  authors:
+  - Chung‐Chuan Lo
+  - Leanne Boucher
+  - Martin Paré
+  - Jeffrey D. Schall
+  - X.-J. Wang
+  year: 2009
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.6164-08.2009
+  citation_count: 124
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2090478427
+  title: The Maturation of Task Set-Related Activation Supports Late Developmental
+    Improvements in Inhibitory Control
+  authors:
+  - Katerina Velanova
+  - Mark E. Wheeler
+  - Beatríz Luna
+  year: 2009
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.1579-09.2009
+  citation_count: 122
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2118322392
+  title: The Influence of Auditory and Visual Distractors on Human Orienting Gaze
+    Shifts
+  authors:
+  - Brian D. Corneil
+  - Douglas P. Munoz
+  year: 1996
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.16-24-08193.1996
+  citation_count: 122
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2225782711
+  title: Influence of Stimulus Eccentricity and Direction on Characteristics of Pro-
+    and Antisaccades in Non-Human Primates
+  authors:
+  - Andrew H. Bell
+  - Stefan Everling
+  - Douglas P. Munoz
+  year: 2000
+  journal: Journal of Neurophysiology
+  doi_or_url: https://doi.org/10.1152/jn.2000.84.5.2595
+  citation_count: 122
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1677064858
+  title: Deficits in reflexive covert attention following cerebellar injury
+  authors:
+  - Christopher L. Striemer
+  - David Cantelmi
+  - Michael D. Cusimano
+  - James Danckert
+  - Tom A. Schweizer
+  year: 2015
+  journal: Frontiers in Human Neuroscience
+  doi_or_url: https://doi.org/10.3389/fnhum.2015.00428
+  citation_count: 121
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2140930200
+  title: Eye movements in monkeys with local dopamine depletion in the caudate nucleus.
+    II. Deficits in voluntary saccades
+  authors:
+  - A. A. Kori
+  - Nobuo Miyashita
+  - M. Kato
+  - Okihide Hikosaka
+  - S Usui
+  - Masaru Matsumura
+  year: 1995
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.15-01-00928.1995
+  citation_count: 120
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2006938939
+  title: Quantitative meta-analysis of fMRI and PET studies reveals consistent activation
+    in fronto-striatal-parietal regions and cerebellum during antisaccades and prosaccades
+  authors:
+  - Sharna D. Jamadar
+  - Joanne Fielding
+  - Gary F. Egan
+  year: 2013
+  journal: Frontiers in Psychology
+  doi_or_url: https://doi.org/10.3389/fpsyg.2013.00749
+  citation_count: 120
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2038016380
+  title: 'Inhibitory processes in toddlers: a latent-variable approach'
+  authors:
+  - Elena Gandolfi
+  - Paola Viterbori
+  - Laura Traverso
+  - Maria Carmen Usai
+  year: 2014
+  journal: Frontiers in Psychology
+  doi_or_url: https://doi.org/10.3389/fpsyg.2014.00381
+  citation_count: 114
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2053184611
+  title: 'Fetal Alcohol Spectrum Disorders: Recent Neuroimaging Findings'
+  authors:
+  - Eileen M. Moore
+  - Robyn Migliorini
+  - M. Alejandra Infante
+  - Edward P. Riley
+  year: 2014
+  journal: Current Developmental Disorders Reports
+  doi_or_url: https://doi.org/10.1007/s40474-014-0020-8
+  citation_count: 110
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1978413093
+  title: Integration of Visuospatial and Effector Information during Symbolically
+    Cued Limb Movements in Monkey Lateral Intraparietal Area
+  authors:
+  - Jeff Oristaglio
+  - David M. Schneider
+  - Puiu F. Balan
+  - Jacqueline Gottlieb
+  year: 2006
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.1779-06.2006
+  citation_count: 106
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2108076489
+  title: Visuomotor Functions in the Frontal Lobe
+  authors:
+  - Jeffrey D. Schall
+  year: 2015
+  journal: Annual Review of Vision Science
+  doi_or_url: https://doi.org/10.1146/annurev-vision-082114-035317
+  citation_count: 103
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2006782584
+  title: Sleep Deprivation Disrupts Prepulse Inhibition and Induces Psychosis-Like
+    Symptoms in Healthy Humans
+  authors:
+  - Nadine Petrovsky
+  - Ulrich Ettinger
+  - Annie E. Hill
+  - L. Frenzel
+  - Inga Meyhöfer
+  - Michael Wagner
+  - J. Backhaus
+  - Veena Kumari
+  year: 2014
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.0904-14.2014
+  citation_count: 102
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2015766511
+  title: Medial Versus Lateral Frontal Lobe Contributions to Voluntary Saccade Control
+    as Revealed by the Study of Patients with Frontal Lobe Degeneration
+  authors:
+  - Adam L. Boxer
+  - Siobhan Garbutt
+  - Katherine P. Rankin
+  - Joanna Hellmuth
+  - John Neuhaus
+  - Bruce L. Miller
+  - Stephen G. Lisberger
+  year: 2006
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.0549-06.2006
+  citation_count: 101
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
