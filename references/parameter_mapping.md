@@ -1,24 +1,18 @@
 ﻿# Parameter Mapping
 
-| Parameter | Implemented Value | Source Paper ID | Confidence | Rationale |
-|---|---|---|---|---|
-| `task.conditions` | `['prosaccade', 'antisaccade']` | `W2163144416` | `high` | Core contrast is prosaccade versus antisaccade rule sets. |
-| `task.total_blocks` | `3` | `W1989816441` | `inferred` | Multi-block layout supports stable within-subject performance estimation in baseline profile. |
-| `task.trial_per_block` | `48` | `W1989816441` | `inferred` | Fixed block length provides balanced per-condition sampling. |
-| `task.left_key` | `f` | `W2163144416` | `inferred` | Keyboard surrogate for leftward response direction. |
-| `task.right_key` | `j` | `W2163144416` | `inferred` | Keyboard surrogate for rightward response direction. |
-| `timing.fixation_duration` | `[0.8, 1.2]` | `W2104663113` | `inferred` | Short jittered fixation period before rule cue and target preparation. |
-| `timing.cue_duration` | `[0.4, 0.6]` | `W2104663113` | `inferred` | Brief preparatory rule-cue epoch before gap/target stages. |
-| `timing.gap_duration` | `[0.15, 0.25]` | `W1875187353` | `inferred` | Gap interval separates instruction cue and response target onset. |
-| `timing.response_deadline` | `1.0` | `W2163144416` | `inferred` | Bounded response window for consistent timeout handling. |
-| `timing.iti_duration` | `0.6` | `W1989816441` | `inferred` | Fixed ITI for block pacing and event separation. |
-| `triggers.map.fixation_onset` | `20` | `W2163144416` | `inferred` | Marks fixation state onset. |
-| `triggers.map.rule_pro_onset` | `21` | `W2163144416` | `inferred` | Marks prosaccade cue onset. |
-| `triggers.map.rule_anti_onset` | `22` | `W2163144416` | `inferred` | Marks antisaccade cue onset. |
-| `triggers.map.gap_onset` | `30` | `W2104663113` | `inferred` | Marks cue-target gap onset. |
-| `triggers.map.target_onset_left` | `40` | `W2163144416` | `inferred` | Marks left target onset in response phase. |
-| `triggers.map.target_onset_right` | `41` | `W2163144416` | `inferred` | Marks right target onset in response phase. |
-| `triggers.map.response_left` | `50` | `W2163144416` | `inferred` | Marks captured left response key. |
-| `triggers.map.response_right` | `51` | `W2163144416` | `inferred` | Marks captured right response key. |
-| `triggers.map.response_timeout` | `60` | `W2163144416` | `inferred` | Marks no response before deadline. |
-| `triggers.map.iti_onset` | `70` | `W1989816441` | `inferred` | Marks inter-trial interval onset. |
+## Mapping Table
+
+| Parameter ID | Config Path | Implemented Value | Source Paper ID | Evidence (quote/figure/table) | Decision Type | Notes |
+|---|---|---|---|---|---|---|
+| task.conditions | `task.conditions` | `['prosaccade','antisaccade']` | W2104663113 | Core paradigm contrast is pro-vs-anti rule switching with common target locations. | high | Condition token maps to rule cue stimulus. |
+| task.blocks_trials | `task.total_blocks`, `task.trial_per_block` | Human `3 x 48`; QA/sim `1 x 16` | W2163144416 | Repeated trial sampling is required for stable inhibitory control metrics. | inferred | QA/sim reduced for validation runtime only. |
+| task.key_mapping | `task.left_key`, `task.right_key`, `task.key_list` | left=`f`, right=`j`, continue=`space` | W2163144416 | Binary saccade-direction response mapping must be explicit and stable. | inferred | Keys remain config-defined for hardware/localization portability. |
+| timing.fixation | `timing.fixation_duration` | Human `[0.8,1.2]`; QA `[0.3,0.4]` | W1989816441 | Fixation epoch precedes preparatory rule cue and target onset. | inferred | Sampled per trial by controller. |
+| timing.rule_cue | `timing.cue_duration` | Human `[0.4,0.6]`; QA `[0.2,0.3]` | W2104663113 | Preparatory-set cue duration supports pro/anti rule preparation. | inferred | Rendered as colored rule text stimulus. |
+| timing.gap | `timing.gap_duration` | Human `[0.15,0.25]`; QA `[0.08,0.12]` | W1875187353 | Gap between cue and target is commonly used in antisaccade control paradigms. | inferred | Triggered by `gap_onset`. |
+| timing.response_deadline | `timing.response_deadline` | Human `1.0s`; QA `0.8s` | W2163144416 | Bounded response window supports hit/error/timeout classification. | inferred | Timeout trigger emitted on no key response. |
+| timing.iti | `timing.iti_duration` | Human `0.6s`; QA `0.2s` | W1989816441 | ITI separates sequential oculomotor control events. | inferred | Configured as fixed duration in this implementation. |
+| trigger.rule | `triggers.map.rule_pro_onset`, `triggers.map.rule_anti_onset` | `21`, `22` | W2104663113 | Rule-preparation onsets must be separable between pro and anti settings. | inferred | Emitted at cue onset. |
+| trigger.target | `triggers.map.target_onset_left`, `triggers.map.target_onset_right` | `40`, `41` | W1875187353 | Target-side onsets are critical for lateralized response analysis. | inferred | Set by sampled target side each trial. |
+| trigger.response | `triggers.map.response_left`, `triggers.map.response_right`, `triggers.map.response_timeout` | `50`, `51`, `60` | W2163144416 | Response direction and omission must be separately event-coded. | inferred | Left/right triggers emitted after response mapping. |
+| trigger.iti | `triggers.map.iti_onset` | `70` | W1989816441 | Inter-trial boundary code supports event segmentation. | inferred | Emitted for every trial. |

@@ -1,5 +1,17 @@
 ﻿# CHANGELOG
 
+## [v0.1.3-dev] - 2026-03-02
+
+### Changed
+- Replaced `src/run_trial.py` MID-template code with antisaccade-native execution phases (`fixation -> rule_cue -> gap -> saccade_response -> iti`).
+- Wired condition rule parsing, target-side sampling, and trial-level correct-key computation into runtime context and outputs.
+- Rebuilt all reference artifacts to the current contract schema (`references.yaml`, `references.md`, `parameter_mapping.md`, `stimulus_mapping.md`, `task_logic_audit.md`).
+
+### Fixed
+- Restored QA-required antisaccade output columns (`trial_index`, `rule`, `target_side`, `correct_key`, `saccade_response_*`).
+- Added explicit response trigger emission (`response_left`/`response_right`) and timeout handling in `saccade_response` phase.
+- Restored contract-required reference headings and columns, including `## 7. Architecture Decisions (Auditability)` and `## 8. Inference Log`.
+
 ## [v0.1.2-dev] - 2026-02-19
 
 ### Changed
@@ -31,3 +43,4 @@ All notable development changes for `T000032-antisaccade` are documented here.
 - `psyflow-qa <task_path> --config config/config_qa.yaml --no-maturity-update`
 - `python main.py sim --config config/config_scripted_sim.yaml`
 - `python main.py sim --config config/config_sampler_sim.yaml`
+

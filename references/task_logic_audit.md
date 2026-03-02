@@ -2,101 +2,94 @@
 
 ## 1. Paradigm Intent
 
-- Task: `antisaccade`
-- Primary construct: inhibitory oculomotor control under prosaccade versus antisaccade rules.
-- Manipulated factors: trial rule (`prosaccade`, `antisaccade`) and lateral target side (`left`, `right`).
-- Dependent measures: response direction accuracy, correct-trial RT, and timeout rate.
+- Task: `antisaccade`.
+- Construct: inhibitory control and rule-dependent response remapping.
+- Manipulated trial factor: response rule (`prosaccade` vs `antisaccade`) with randomly sampled target side (`left`/`right`).
+- Primary dependent measures:
+  - saccade response accuracy
+  - response latency on correct trials
+  - timeout/omission rate.
 - Key citations:
   - `W2163144416` (Geier et al., 2009, Cerebral Cortex)
-  - `W1989816441` (Padmanabhan et al., 2011, Dev Cogn Neurosci)
-  - `W2104663113` (Everling and Munoz, 2000, J Neurosci)
-  - `W1875187353` (Everling et al., 1999, J Neurosci)
+  - `W2104663113` (Everling & Munoz, 2000, Journal of Neuroscience)
+  - `W1875187353` (Everling et al., 1999, Journal of Neuroscience)
 
 ## 2. Block/Trial Workflow
 
 ### Block Structure
 
-- Human profile: 3 blocks x 48 trials (`total_trials=144`).
-- QA/sim profiles: 1 block x 16 trials.
-- Randomization/counterbalancing: `BlockUnit.generate_conditions()` provides block condition stream; each trial samples target side at runtime.
+- Human profile: `3` blocks x `48` trials.
+- QA/sim profiles: `1` block x `16` trials.
+- For each trial:
+  - condition token provides rule (`prosaccade` or `antisaccade`)
+  - target side is sampled (`left` or `right`) by controller.
 
 ### Trial State Machine
 
 1. `fixation`
-   - Onset trigger: `fixation_onset`
-   - Stimuli shown: `fixation`, `left_anchor`, `right_anchor`
-   - Valid keys: `[]`
-   - Timeout behavior: auto-advance after sampled `fixation_duration`.
-   - Next state: `rule_cue`
+- Stimulus: `fixation`.
+- Trigger: `fixation_onset`.
+- Keys: none.
 
 2. `rule_cue`
-   - Onset trigger: `rule_pro_onset` or `rule_anti_onset`
-   - Stimuli shown: fixation and anchors plus rule cue (`rule_pro` or `rule_anti`)
-   - Valid keys: `[]`
-   - Timeout behavior: auto-advance after sampled `cue_duration`.
-   - Next state: `gap`
+- Stimuli: `rule_pro` or `rule_anti` plus anchors.
+- Triggers: `rule_pro_onset` or `rule_anti_onset`.
+- Keys: none.
 
 3. `gap`
-   - Onset trigger: `gap_onset`
-   - Stimuli shown: `fixation`, `left_anchor`, `right_anchor`
-   - Valid keys: `[]`
-   - Timeout behavior: auto-advance after sampled `gap_duration`.
-   - Next state: `saccade_response`
+- Stimuli: `left_anchor`, `right_anchor`.
+- Trigger: `gap_onset`.
+- Keys: none.
 
 4. `saccade_response`
-   - Onset trigger: `target_onset_left` or `target_onset_right`
-   - Stimuli shown: anchors plus lateralized target (`left_target` or `right_target`)
-   - Valid keys: `[left_key, right_key]` (default `f/j`)
-   - Timeout behavior: if no response before `response_deadline`, emit `response_timeout`.
-   - Next state: `iti`
+- Stimuli: anchors + `left_target` or `right_target`.
+- Trigger: `target_onset_left` or `target_onset_right`.
+- Valid keys: `left_key`, `right_key`.
+- Response triggers: `response_left` / `response_right`.
+- Timeout trigger: `response_timeout`.
 
 5. `iti`
-   - Onset trigger: `iti_onset`
-   - Stimuli shown: `fixation`, `left_anchor`, `right_anchor`
-   - Valid keys: `[]`
-   - Timeout behavior: auto-advance after `iti_duration`.
-   - Next state: next trial
+- Stimulus: `fixation`.
+- Trigger: `iti_onset`.
+- Keys: none.
 
 ## 3. Condition Semantics
 
-- Condition ID: `prosaccade`
-  - Participant-facing meaning: orient toward target side.
-  - Concrete stimulus realization: green top cue (`LOOK TOWARD`) precedes lateral target onset.
-  - Implemented stimuli: `rule_pro`, `left_target`/`right_target`, plus shared fixation/anchors.
-  - Outcome rule: correct key equals target side key.
+- `prosaccade`:
+  - expected response is same direction as target side.
+- `antisaccade`:
+  - expected response is opposite direction from target side.
 
-- Condition ID: `antisaccade`
-  - Participant-facing meaning: inhibit reflexive orienting and choose opposite side.
-  - Concrete stimulus realization: red top cue (`LOOK AWAY`) precedes lateral target onset.
-  - Implemented stimuli: `rule_anti`, `left_target`/`right_target`, plus shared fixation/anchors.
-  - Outcome rule: correct key is opposite the target side key.
+Correct key mapping is computed per trial from `(rule, target_side, left_key, right_key)`.
 
 ## 4. Response and Scoring Rules
 
-- Response mapping: `left_key=f`, `right_key=j` by default.
-- Missing-response policy: timeout if no valid key within `response_deadline`; emit `response_timeout` and mark `timed_out=true`.
-- Correctness logic:
-  - prosaccade: left target -> `f`, right target -> `j`
-  - antisaccade: left target -> `j`, right target -> `f`
-- Reward/penalty updates: no monetary reward schedule; controller tracks behavioral performance counters only.
-- Running metrics: `correct_total`, `correct_block`, `timeouts_total`, `timeouts_block`, plus per-trial RT and error type.
+- Key mapping (default):
+  - `f -> left`
+  - `j -> right`
+- Correctness:
+  - `hit = (response_key == correct_key)`.
+- Timeout:
+  - no key before deadline, `timed_out=true`, `saccade_response_hit=false`.
+- Controller updates per trial:
+  - correctness counters
+  - timeout counters
+  - correct-trial RT aggregates.
+- QA-required columns include:
+  - `condition`, `block_id`, `trial_index`, `rule`, `target_side`, `correct_key`, `saccade_response_response`, `saccade_response_rt`, `saccade_response_hit`.
 
 ## 5. Stimulus Layout Plan
 
-- Screen: instruction and summaries
-  - Stimulus IDs shown together: `instruction_text`, `block_break`, `good_bye`
-  - Layout anchors (`pos`): centered text blocks with explicit `wrapWidth`.
-  - Size/spacing: instruction/summary text heights 26-28 px, wrap width 980 px.
-  - Readability checks: no overlap with trial stimuli; all text is single-layer per screen.
-
-- Screen: trial display
-  - Stimulus IDs shown together: fixation cross, two peripheral anchors, rule cue, and one lateral target.
-  - Layout anchors (`pos`):
-    - fixation: `(0, 0)`
-    - cue text: `(0, 210)`
-    - anchors/targets: `(-340, 0)` and `(340, 0)`
-  - Size/spacing: anchor radius 34 px, target radius 26 px.
-  - Visual hierarchy: rule cue is color-coded (green/red); target appears peripherally to drive response mapping.
+- Spatial layout:
+  - `fixation` center at `(0, 0)`.
+  - anchors at `(-340, 0)` and `(340, 0)`.
+  - target appears at one anchor location (`left_target` or `right_target`).
+  - rule cue text shown at top center `(0, 210)`.
+- Visual coding:
+  - pro rule in green (`rule_pro`), anti rule in red (`rule_anti`).
+  - target uses filled white circle for strong peripheral salience.
+- Localization policy:
+  - all participant-facing instruction/rule/summary text is config-defined.
 
 ## 6. Trigger Plan
 
@@ -106,24 +99,28 @@
 | `exp_end` | 2 | experiment end |
 | `block_onset` | 10 | block start |
 | `block_end` | 11 | block end |
-| `fixation_onset` | 20 | fixation phase onset |
-| `rule_pro_onset` | 21 | prosaccade cue onset |
-| `rule_anti_onset` | 22 | antisaccade cue onset |
-| `gap_onset` | 30 | gap interval onset |
+| `fixation_onset` | 20 | fixation onset |
+| `rule_pro_onset` | 21 | prosaccade rule cue onset |
+| `rule_anti_onset` | 22 | antisaccade rule cue onset |
+| `gap_onset` | 30 | gap onset |
 | `target_onset_left` | 40 | left target onset |
 | `target_onset_right` | 41 | right target onset |
-| `response_left` | 50 | left-key response captured |
-| `response_right` | 51 | right-key response captured |
-| `response_timeout` | 60 | response window elapsed without key |
+| `response_left` | 50 | left response key |
+| `response_right` | 51 | right response key |
+| `response_timeout` | 60 | no response before deadline |
 | `iti_onset` | 70 | inter-trial interval onset |
 
-## 7. Inference Log
+## 7. Architecture Decisions (Auditability)
 
-- Decision: implement keyboard left/right responses as a surrogate for gaze-direction output.
-- Why inference was required: cited antisaccade protocols describe eye-movement behavior; this baseline behavior build uses keypress responses for portable runtime and QA/sim compatibility.
-- Citation-supported rationale: condition logic still preserves core prosaccade versus antisaccade directional rule manipulation.
+- `src/run_trial.py` is task-native and removes MID-template phases.
+- Response phase is explicitly named `saccade_response` to align with responder expectations and QA column contracts.
+- Correct key is computed each trial by controller logic and stored in trial context for simulated responders.
+- Target-side onset triggers are emitted directly from sampled side (`left` vs `right`) for event-level traceability.
+- Behavioral counters remain in controller; `main.py` summarizes from logged trial rows for reproducibility.
 
-- Decision: use jittered fixation/cue/gap durations in baseline profile.
-- Why inference was required: cited papers vary by hardware and cohort, and no single canonical timing set is universal.
-- Citation-supported rationale: short cue-gap-target sequencing is preserved, while exact values are explicitly marked as configurable in `config/*.yaml`.
+## 8. Inference Log
 
+- Duration ranges (fixation, cue, gap, ITI) are implementation inferences constrained by antisaccade workflow literature rather than one fixed universal protocol.
+- Human profile uses `3 x 48` trial structure for balanced sampling; QA/sim downsample counts for runtime practicality.
+- Keyboard left/right response proxies are used in place of eye-tracker-derived saccades as an implementation inference for portability.
+- Rule cues are implemented as colored text (`rule_pro`/`rule_anti`) instead of symbolic shapes; this is an inference preserving explicit rule communication.
