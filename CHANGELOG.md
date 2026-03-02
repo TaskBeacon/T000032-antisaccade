@@ -1,13 +1,19 @@
-# CHANGELOG
+﻿# CHANGELOG
 
-## [v0.1.1-dev] - 2026-02-19
+## [v0.1.2-dev] - 2026-02-19
 
 ### Changed
-- Rebuilt literature bundle with task-relevant curated papers and regenerated reference artifacts.
-- Replaced corrupted `references/task_logic_audit.md` with a full state-machine audit.
-- Updated `references/stimulus_mapping.md` to concrete implemented stimulus IDs per condition.
-- Synced metadata (`README.md`, `taskbeacon.yaml`) with current configuration and evidence.
+- Replaced MID-derived trial flow with a zero-base antisaccade state machine (`fixation -> rule_cue -> gap -> saccade_response -> iti`).
+- Rewrote `src/run_trial.py` for rule-dependent side mapping and lateralized target onset/response triggers.
+- Replaced adaptive MID controller in `src/utils.py` with antisaccade rule/side sampler and performance tracker.
+- Updated `main.py` summaries to use antisaccade accuracy, RT, and timeout metrics.
+- Replaced `responders/task_sampler.py` with antisaccade-aware simulation policy using `correct_key` from runtime factors.
+- Rebuilt all task configs (`config.yaml`, `config_qa.yaml`, `config_scripted_sim.yaml`, `config_sampler_sim.yaml`) to match antisaccade stimuli, timing, and trigger map.
+- Rebuilt literature artifacts (`references/task_logic_audit.md`, `references/stimulus_mapping.md`, `references/parameter_mapping.md`, `references/references.yaml`, `references/references.md`, `references/selected_papers.json`) with antisaccade-specific evidence.
+- Updated `README.md` and `taskbeacon.yaml` metadata to align with repaired implementation and evidence IDs.
 
+### Fixed
+- Removed legacy `catch` fallback mapping from `src/utils.py` so only true antisaccade conditions are accepted.
 
 All notable development changes for `T000032-antisaccade` are documented here.
 

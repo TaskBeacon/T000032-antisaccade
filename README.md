@@ -1,13 +1,13 @@
-# Antisaccade Task
+﻿# Antisaccade Task
 
 ![Maturity: draft](https://img.shields.io/badge/Maturity-draft-64748b?style=flat-square&labelColor=111827)
 
 | Field | Value |
 |---|---|
 | Name | Antisaccade Task |
-| Version | v0.1.1-dev |
+| Version | v0.1.2-dev |
 | URL / Repository | https://github.com/TaskBeacon/T000032-antisaccade |
-| Short Description | Inhibitory control and oculomotor response suppression. |
+| Short Description | Rule-dependent inhibitory control with prosaccade versus antisaccade responses. |
 | Created By | TaskBeacon |
 | Date Updated | 2026-02-19 |
 | PsyFlow Version | 0.1.9 |
@@ -18,9 +18,12 @@
 
 ## 1. Task Overview
 
-This task implements an antisaccade-style inhibitory control paradigm with `prosaccade`, `antisaccade`, and `catch` conditions. Trials include cueing, anticipation, target response capture, and feedback stages.
+This task implements a two-condition antisaccade paradigm:
 
-The implementation supports standardized PsyFlow execution profiles (human, QA, scripted sim, sampler sim) and condition-specific trigger reporting.
+- `prosaccade`: respond toward the target side.
+- `antisaccade`: respond opposite the target side.
+
+Each trial presents a fixation baseline, a rule cue, a short gap, and a lateralized target response window. The build uses keyboard direction keys (`f/j`) as a surrogate behavioral output for gaze direction in a portable PsyFlow runtime.
 
 ## 2. Task Flow
 
@@ -28,35 +31,39 @@ The implementation supports standardized PsyFlow execution profiles (human, QA, 
 
 | Step | Description |
 |---|---|
-| 1. Prepare conditions | Condition stream is prepared per block. |
-| 2. Execute trials | `run_trial(...)` runs cue, anticipation, target, and feedback phases. |
-| 3. Block summary | Block accuracy and score summary is displayed. |
-| 4. End summary | Final score is displayed at task completion. |
+| 1. Block setup | Load block condition stream and reset block counters in controller. |
+| 2. Trial execution | Run fixation -> rule cue -> gap -> saccade response -> ITI for each trial. |
+| 3. Block summary | Show block-level accuracy, correct RT, and timeout count. |
+| 4. Final summary | Show session-level totals and save CSV output. |
 
 ### Trial-Level Flow
 
 | Step | Description |
 |---|---|
-| Cue | Condition-specific cue is shown. |
-| Anticipation | Fixation stage before target response. |
-| Target | Target appears and response is captured. |
-| Pre-feedback fixation | Short transition fixation stage. |
-| Feedback | Hit/miss feedback with score delta is shown. |
+| `fixation` | Show center fixation and left/right peripheral anchors. |
+| `rule_cue` | Present condition cue (`LOOK TOWARD` or `LOOK AWAY`). |
+| `gap` | Remove cue and keep neutral fixation anchors before target onset. |
+| `saccade_response` | Present one lateral target and capture left/right response under deadline. |
+| `iti` | Show neutral fixation scene until next trial. |
 
 ### Controller Logic
 
 | Component | Description |
 |---|---|
-| Adaptive target duration | Target duration is adjusted toward configured target accuracy. |
-| Condition history | Outcomes are tracked by condition. |
-| Score update | Trial hit/miss outcome updates score. |
+| Rule parser | Converts condition tokens to `prosaccade` or `antisaccade` runtime rule. |
+| Target sampler | Samples target side (`left`/`right`) per trial with equal probability. |
+| Correct-key mapper | Prosaccade uses same-side key; antisaccade uses opposite-side key. |
+| Performance tracker | Maintains trial/block/session counts for accuracy, RT, and timeouts. |
 
 ### Runtime Context Phases
 
 | Phase Label | Meaning |
 |---|---|
-| `anticipation` | Pre-target monitoring stage. |
-| `target` | Target response window stage. |
+| `fixation` | Neutral baseline before instruction cue. |
+| `rule_cue` | Rule preparation period. |
+| `gap` | Cue-target separation interval. |
+| `saccade_response` | Active response capture window. |
+| `iti` | Inter-trial reset interval. |
 
 ## 3. Configuration Summary
 
@@ -80,27 +87,27 @@ The implementation supports standardized PsyFlow execution profiles (human, QA, 
 
 ### c. Stimuli
 
-| Name | Type | Description |
-|---|---|---|
-| `prosaccade_cue`, `antisaccade_cue`, `catch_cue` | text | Condition-specific cue prompts. |
-| `prosaccade_target`, `antisaccade_target`, `catch_target` | text | Condition targets used for response capture. |
-| `*_hit_feedback`, `*_miss_feedback` | text | Condition-specific outcome feedback. |
-| `fixation`, `block_break`, `good_bye` | text | Shared fixation and summary screens. |
+| Stimulus Group | Description |
+|---|---|
+| `fixation` | Central fixation cross used in fixation/gap/ITI phases. |
+| `rule_pro`, `rule_anti` | Color-coded rule cues (`LOOK TOWARD`, `LOOK AWAY`). |
+| `left_anchor`, `right_anchor` | Peripheral position anchors shown before target onset. |
+| `left_target`, `right_target` | Lateral white target circles for directional response. |
+| `instruction_text`, `block_break`, `good_bye` | Entry, transition, and completion text screens. |
 
 ### d. Timing
 
-| Phase | Duration |
+| Stage | Duration |
 |---|---|
-| cue | 0.5 s |
-| anticipation | 1.0 s |
-| prefeedback | 0.4 s |
-| feedback | 0.8 s |
-| target | adaptive via controller (`0.08`-`0.40` s bounds) |
+| fixation | uniform in `fixation_duration` range |
+| rule cue | uniform in `cue_duration` range |
+| gap | uniform in `gap_duration` range |
+| response window | `response_deadline` |
+| ITI | `iti_duration` |
 
 ## 4. Methods (for academic publication)
 
-Participants completed an inhibitory control task comprising prosaccade, antisaccade, and catch trials. Each trial combined condition cueing, a pre-target interval, a target-response window, and immediate feedback.
+Participants completed a rule-based oculomotor inhibition task containing prosaccade and antisaccade trials. Each trial began with fixation, followed by an explicit rule cue and a short cue-target gap, then a lateral target requiring a directional response. Prosaccade trials required same-side responses relative to target location; antisaccade trials required opposite-side responses.
 
-Task difficulty was stabilized with adaptive target-duration control based on recent performance. Trial logs include condition labels, response outcomes, timing metrics, and score updates.
+Behavioral outputs were logged at trial level, including condition, target side, response key, correctness, reaction time, and timeout status. The implementation emits phase-aligned triggers for fixation, cue, gap, target onset, response category, and ITI to support synchronized acquisition workflows.
 
-Trigger emissions were configured for major trial stages to support synchronized acquisition and QA reproducibility.

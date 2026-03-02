@@ -1,117 +1,78 @@
-task_id: T000032
-generated_at: '2026-02-18T17:03:41Z'
-selection_policy: openalex_filter_plus_manual_curation
+﻿task_id: T000032
+generated_at: '2026-02-19T12:00:00Z'
+selection_policy: manual_curation_from_openalex_candidates
 citation_threshold: 100
 papers:
-- id: W2116336109
-  title: Functional localization of the system for visuospatial attention using positron
-    emission tomography
-  authors:
-  - Anna C. Nobre
-  year: 1997
-  journal: Brain
-  doi_or_url: https://doi.org/10.1093/brain/120.3.515
-  citation_count: 911
-  is_high_impact: true
-  open_access: true
-  used_for:
-  - task_workflow
-  - timing_parameters
-  parameter_bindings: {}
-  notes: ''
-- id: W2123523993
-  title: 'Brain Maturation in Adolescence and Young Adulthood: Regional Age-Related
-    Changes in Cortical Thickness and White Matter Volume and Microstructure'
-  authors:
-  - Christian K. Tamnes
-  - Ylva Østby
-  - Anders M. Fjell
-  - Lars T. Westlye
-  - Paulina Due‐Tønnessen
-  - Kristine B. Walhovd
-  year: 2009
-  journal: Cerebral Cortex
-  doi_or_url: https://doi.org/10.1093/cercor/bhp118
-  citation_count: 793
-  is_high_impact: true
-  open_access: true
-  used_for:
-  - task_workflow
-  - timing_parameters
-  parameter_bindings: {}
-  notes: ''
-- id: W2190536949
-  title: Identification of Distinct Psychosis Biotypes Using Brain-Based Biomarkers
-  authors:
-  - Brett A. Clementz
-  - John A. Sweeney
-  - Jordan P. Hamm
-  - Elena I. Ivleva
-  - Lauren E. Ethridge
-  - Godfrey D. Pearlson
-  - Matcheri S. Keshavan
-  - Carol A. Tamminga
-  year: 2015
-  journal: American Journal of Psychiatry
-  doi_or_url: https://doi.org/10.1176/appi.ajp.2015.14091200
-  citation_count: 744
-  is_high_impact: true
-  open_access: true
-  used_for:
-  - task_workflow
-  - timing_parameters
-  parameter_bindings: {}
-  notes: ''
-- id: W2039517753
-  title: Why does working memory capacity predict variation in reading comprehension?
-    On the influence of mind wandering and executive attention.
-  authors:
-  - Jennifer C. McVay
-  - Michael J. Kane
-  year: 2011
-  journal: Journal of Experimental Psychology General
-  doi_or_url: https://doi.org/10.1037/a0025250
-  citation_count: 568
-  is_high_impact: true
-  open_access: true
-  used_for:
-  - task_workflow
-  - timing_parameters
-  parameter_bindings: {}
-  notes: ''
-- id: W2171760615
-  title: Frontostriatal Maturation Predicts Cognitive Control Failure to Appetitive
-    Cues in Adolescents
-  authors:
-  - Leah H. Somerville
-  - Todd A. Hare
-  - B.J. Casey
-  year: 2010
-  journal: Journal of Cognitive Neuroscience
-  doi_or_url: https://doi.org/10.1162/jocn.2010.21572
-  citation_count: 520
-  is_high_impact: true
-  open_access: true
-  used_for:
-  - task_workflow
-  - timing_parameters
-  parameter_bindings: {}
-  notes: ''
-- id: W2152077590
-  title: 'White Matter Development in Adolescence: A DTI Study'
-  authors:
-  - Miya R. Asato
-  - Robert Terwilliger
-  - John Woo
-  - Beatríz Luna
-  year: 2010
-  journal: Cerebral Cortex
-  doi_or_url: https://doi.org/10.1093/cercor/bhp282
-  citation_count: 514
-  is_high_impact: true
-  open_access: true
-  used_for:
-  - task_workflow
-  - timing_parameters
-  parameter_bindings: {}
-  notes: ''
+  - id: W2163144416
+    title: Immaturities in Reward Processing and Its Influence on Inhibitory Control in Adolescence
+    authors:
+      - Charles F. Geier
+      - Robert Terwilliger
+      - Theresa Teslovich
+      - Katerina Velanova
+      - Beatriz Luna
+    year: 2009
+    journal: Cerebral Cortex
+    doi_or_url: https://doi.org/10.1093/cercor/bhp225
+    citation_count: 391
+    is_high_impact: true
+    open_access: true
+    used_for:
+      - task_workflow
+      - timing_parameters
+      - condition_semantics
+    parameter_bindings: {}
+    notes: Human antisaccade implementation source for condition logic and inhibitory-control framing.
+  - id: W1989816441
+    title: Developmental changes in brain function underlying the influence of reward processing on inhibitory control
+    authors:
+      - Aarthi Padmanabhan
+      - Charles F. Geier
+      - Sarah J. Ordaz
+      - Theresa Teslovich
+      - Beatriz Luna
+    year: 2011
+    journal: Developmental Cognitive Neuroscience
+    doi_or_url: https://doi.org/10.1016/j.dcn.2011.06.004
+    citation_count: 199
+    is_high_impact: false
+    open_access: true
+    used_for:
+      - task_workflow
+      - timing_parameters
+    parameter_bindings: {}
+    notes: Supports block-level inhibitory-control task structure in adolescent samples.
+  - id: W2104663113
+    title: Neuronal Correlates for Preparatory Set Associated with Pro-Saccades and Anti-Saccades in the Primate Frontal Eye Field
+    authors:
+      - Stefan Everling
+      - Douglas P. Munoz
+    year: 2000
+    journal: Journal of Neuroscience
+    doi_or_url: https://doi.org/10.1523/jneurosci.20-01-00387.2000
+    citation_count: 564
+    is_high_impact: false
+    open_access: true
+    used_for:
+      - condition_semantics
+      - timing_parameters
+    parameter_bindings: {}
+    notes: Establishes prosaccade versus antisaccade preparatory-set distinction.
+  - id: W1875187353
+    title: Role of Primate Superior Colliculus in Preparation and Execution of Anti-Saccades and Pro-Saccades
+    authors:
+      - Stefan Everling
+      - Michael C. Dorris
+      - Raymond M. Klein
+      - Douglas P. Munoz
+    year: 1999
+    journal: Journal of Neuroscience
+    doi_or_url: https://doi.org/10.1523/jneurosci.19-07-02740.1999
+    citation_count: 404
+    is_high_impact: false
+    open_access: true
+    used_for:
+      - condition_semantics
+      - timing_parameters
+    parameter_bindings: {}
+    notes: Supports antisaccade execution model with target-location and rule-dependent response demands.

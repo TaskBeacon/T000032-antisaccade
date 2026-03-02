@@ -1,20 +1,18 @@
-subinfo_fields:
-- name: subject_id
-  type: int
-  constraints:
-    min: 101
-    max: 999
-    digits: 3
+﻿subinfo_fields:
+  - name: subject_id
+    type: int
+    constraints:
+      min: 101
+      max: 999
+      digits: 3
 subinfo_mapping:
-  subject_id: 被试编号（3位）
+  subject_id: 受试者编号（3位）
   Participant Information: 被试信息
   registration_failed: 注册失败
   registration_successful: 注册成功
-  invalid_input: '{field} 输入无效'
+  invalid_input: "{field} 输入无效"
 window:
-  size:
-  - 1280
-  - 720
+  size: [1280, 720]
   units: pix
   screen: 0
   bg_color: gray
@@ -25,181 +23,115 @@ task:
   task_name: antisaccade
   save_path: ./outputs/sim_sampler
   total_blocks: 1
-  total_trials: 9
-  trial_per_block: 9
+  total_trials: 16
+  trial_per_block: 16
   conditions:
-  - prosaccade
-  - antisaccade
-  - catch
+    - prosaccade
+    - antisaccade
   key_list:
-  - f
-  - j
-  - space
+    - f
+    - j
+    - space
+  left_key: f
+  right_key: j
   seed_mode: same_across_sub
-  delta: 1
   language: Chinese
   voice_name: zh-CN-YunyangNeural
   voice_enabled: false
 timing:
-  cue_duration: 0.5
-  anticipation_duration: 1.0
-  prefeedback_duration: 0.4
-  feedback_duration: 0.8
+  fixation_duration: [0.3, 0.4]
+  cue_duration: [0.2, 0.3]
+  gap_duration: [0.08, 0.12]
+  response_deadline: 0.8
+  iti_duration: 0.2
 stimuli:
-  fixation:
-    type: text
-    text: +
-    color: white
-    height: 48
-    font: SimHei
   instruction_text:
     type: text
-    text: '反眼跳任务
-
-
-      请根据线索执行同向或反向反应。
-
-      F=左侧反应，J=右侧反应。
-
-
-      按空格键开始。'
+    text: "反眼跳任务（采样模拟）\n\n绿色规则：朝圆点方向反应。\n红色规则：朝圆点相反方向反应。\nF=左，J=右。\n\n按空格键开始。"
+    font: SimHei
     color: white
     height: 28
     wrapWidth: 980
-    font: SimHei
-  prosaccade_cue:
+    pos: [0, 90]
+  fixation:
     type: text
-    text: 线索：同向反应
-    color: green
-    height: 44
-    wrapWidth: 900
+    text: "+"
     font: SimHei
-  antisaccade_cue:
-    type: text
-    text: 线索：反向反应
-    color: red
-    height: 44
-    wrapWidth: 900
-    font: SimHei
-  catch_cue:
-    type: text
-    text: 线索：捕获试次
-    color: yellow
-    height: 44
-    wrapWidth: 900
-    font: SimHei
-  prosaccade_target:
-    type: text
-    text: '请按刺激出现方向作答
-
-      F=左   J=右'
     color: white
-    height: 54
-    wrapWidth: 900
-    font: SimHei
-  antisaccade_target:
+    height: 44
+    pos: [0, 0]
+  rule_pro:
     type: text
-    text: '请按刺激相反方向作答
-
-      F=左   J=右'
-    color: white
-    height: 54
-    wrapWidth: 900
+    text: "朝圆点"
     font: SimHei
-  catch_target:
+    color: [0.25, 0.9, 0.25]
+    height: 32
+    pos: [0, 210]
+  rule_anti:
     type: text
-    text: 保持注视，需要确认时按空格键
-    color: white
-    height: 54
-    wrapWidth: 900
+    text: "背离圆点"
     font: SimHei
-  prosaccade_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  prosaccade_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
-    font: SimHei
-  antisaccade_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  antisaccade_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
-    font: SimHei
-  catch_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  catch_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
-    font: SimHei
+    color: [0.95, 0.25, 0.25]
+    height: 32
+    pos: [0, 210]
+  left_anchor:
+    type: circle
+    radius: 34
+    pos: [-340, 0]
+    lineColor: [0.65, 0.65, 0.65]
+    lineWidth: 2
+    fillColor: null
+  right_anchor:
+    type: circle
+    radius: 34
+    pos: [340, 0]
+    lineColor: [0.65, 0.65, 0.65]
+    lineWidth: 2
+    fillColor: null
+  left_target:
+    type: circle
+    radius: 26
+    pos: [-340, 0]
+    lineColor: white
+    lineWidth: 2
+    fillColor: white
+  right_target:
+    type: circle
+    radius: 26
+    pos: [340, 0]
+    lineColor: white
+    lineWidth: 2
+    fillColor: white
   block_break:
     type: text
-    text: '区块 {block_num}/{total_blocks}
-
-      记录率：{accuracy:.2%}
-
-      当前分数：{total_score}
-
-
-      按空格键继续'
-    color: white
-    height: 24
-    wrapWidth: 900
+    text: "第 {block_num}/{total_blocks} 组完成\n\n正确率：{block_accuracy:.1%}\n正确反应平均RT：{mean_rt_ms:.0f} ms\n超时次数：{timeout_count}\n\n准备好后按空格键继续。"
     font: SimHei
+    color: white
+    height: 26
+    wrapWidth: 980
   good_bye:
     type: text
-    text: '任务结束，最终分数：{total_score}
-
-
-      按空格键退出'
+    text: "采样模拟运行结束。\n\n总试次：{total_trials}\n正确率：{total_accuracy:.1%}\n正确反应平均RT：{mean_rt_ms:.0f} ms\n超时次数：{total_timeouts}\n\n按空格键退出。"
+    font: SimHei
     color: white
     height: 28
-    wrapWidth: 900
-    font: SimHei
+    wrapWidth: 980
 triggers:
   map:
     exp_onset: 1
     exp_end: 2
     block_onset: 10
     block_end: 11
-    prosaccade_cue_onset: 20
-    antisaccade_cue_onset: 21
-    catch_cue_onset: 22
-    prosaccade_anti_onset: 30
-    antisaccade_anti_onset: 31
-    catch_anti_onset: 32
-    prosaccade_target_onset: 40
-    antisaccade_target_onset: 41
-    catch_target_onset: 42
-    prosaccade_key_press: 50
-    antisaccade_key_press: 51
-    catch_key_press: 52
-    prosaccade_no_response: 60
-    antisaccade_no_response: 61
-    catch_no_response: 62
-    prosaccade_hit_fb_onset: 70
-    prosaccade_miss_fb_onset: 71
-    antisaccade_hit_fb_onset: 72
-    antisaccade_miss_fb_onset: 73
-    catch_hit_fb_onset: 74
-    catch_miss_fb_onset: 75
+    fixation_onset: 20
+    rule_pro_onset: 21
+    rule_anti_onset: 22
+    gap_onset: 30
+    target_onset_left: 40
+    target_onset_right: 41
+    response_left: 50
+    response_right: 51
+    response_timeout: 60
+    iti_onset: 70
   driver:
     type: serial_url
     url: loop://
@@ -209,12 +141,12 @@ triggers:
   policy:
     strict: false
 controller:
-  initial_duration: 0.25
-  min_duration: 0.08
-  max_duration: 0.4
-  step: 0.02
-  target_accuracy: 0.66
-  condition_specific: true
+  fixation_duration: [0.3, 0.4]
+  cue_duration: [0.2, 0.3]
+  gap_duration: [0.08, 0.12]
+  response_deadline: 0.8
+  iti_duration: 0.2
+  random_seed: 23
   enable_logging: true
 sim:
   output_dir: outputs/sim_sampler
@@ -228,8 +160,9 @@ sim:
   responder:
     type: responders.task_sampler:TaskSamplerResponder
     kwargs:
-      key: f
-      hit_rate: 0.7
-      rt_mean_s: 0.28
-      rt_sd_s: 0.05
-      rt_min_s: 0.12
+      hit_rate: 0.82
+      error_rate: 0.1
+      rt_mean_s: 0.34
+      rt_sd_s: 0.07
+      rt_min_s: 0.15
+
