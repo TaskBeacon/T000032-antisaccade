@@ -1,41 +1,10 @@
 from __future__ import annotations
 
 from functools import partial
-from typing import Any
 
-from psyflow import StimUnit, set_trial_context
+from psyflow import StimUnit, next_trial_id, set_trial_context
 
-from .utils import RULE_ANTI, RULE_PRO, SIDE_LEFT, SIDE_RIGHT
-
-
-def _deadline_s(value: Any) -> float | None:
-    if isinstance(value, (int, float)):
-        return float(value)
-    if isinstance(value, (list, tuple)) and value:
-        try:
-            return float(max(value))
-        except Exception:
-            return None
-    return None
-
-
-def _as_duration(controller, value: Any, default_value: float) -> float:
-    if hasattr(controller, "sample_duration"):
-        return float(controller.sample_duration(value, default_value))
-    if isinstance(value, (int, float)):
-        return float(value)
-    if isinstance(value, (list, tuple)) and value:
-        try:
-            return float(max(value))
-        except Exception:
-            return float(default_value)
-    return float(default_value)
-
-
-def _trial_id(controller) -> int:
-    if hasattr(controller, "next_trial_id"):
-        return int(controller.next_trial_id())
-    return 1
+from .utils import SIDE_LEFT, build_antisaccade_trial_spec
 
 
 def run_trial(
@@ -44,42 +13,47 @@ def run_trial(
     settings,
     condition,
     stim_bank,
-    controller,
     trigger_runtime,
     block_id=None,
     block_idx=None,
+    block_seed=None,
 ):
     """Run one antisaccade/prosaccade trial."""
-    trial_id = _trial_id(controller)
-    rule = str(controller.parse_rule(condition)).strip().lower()
-    target_side = str(controller.sample_target_side()).strip().lower()
+    trial_id = next_trial_id()
+    trial_spec = build_antisaccade_trial_spec(
+        condition=condition,
+        trial_id=trial_id,
+        block_seed=block_seed,
+        settings=settings,
+    )
+    rule = str(trial_spec["rule"]).strip().lower()
+    target_side = str(trial_spec["target_side"]).strip().lower()
 
     block_label = str(block_id) if block_id is not None else "block_0"
     block_index = int(block_idx) if block_idx is not None else 0
-    block_trial_index = int(getattr(controller, "trial_count_block", 0)) + 1
 
-    left_key = str(getattr(settings, "left_key", "f")).strip().lower()
-    right_key = str(getattr(settings, "right_key", "j")).strip().lower()
+    left_key = str(trial_spec["left_key"]).strip().lower()
+    right_key = str(trial_spec["right_key"]).strip().lower()
     response_keys = [left_key, right_key]
-    correct_key = str(controller.expected_key(rule, target_side, left_key, right_key)).strip().lower()
+    correct_key = str(trial_spec["correct_key"]).strip().lower()
+    fixation_duration = settings.fixation_duration
+    cue_duration = settings.cue_duration
+    gap_duration = settings.gap_duration
+    response_deadline = settings.response_deadline
+    iti_duration = settings.iti_duration
 
-    fixation_duration = _as_duration(controller, settings.fixation_duration, 1.0)
-    cue_duration = _as_duration(controller, settings.cue_duration, 0.5)
-    gap_duration = _as_duration(controller, settings.gap_duration, 0.2)
-    response_deadline = float(getattr(settings, "response_deadline", 1.0))
-    iti_duration = _as_duration(controller, settings.iti_duration, 0.6)
-
+    trigger_map = dict(getattr(settings, "triggers", {}) or {})
     target_stim_id = "left_target" if target_side == SIDE_LEFT else "right_target"
     target_onset_trigger = "target_onset_left" if target_side == SIDE_LEFT else "target_onset_right"
-    rule_stim_id = "rule_pro" if rule == RULE_PRO else "rule_anti"
-    rule_onset_trigger = "rule_pro_onset" if rule == RULE_PRO else "rule_anti_onset"
+    # Keep cue identity parseable for task-plot and config audits.
+    rule_stim_id = "rule_pro" if condition.lower() == "prosaccade" else "rule_anti"
+    rule_onset_trigger = "rule_pro_onset" if condition.lower() == "prosaccade" else "rule_anti_onset"
 
     trial_data = {
         "condition": rule,
         "block_id": block_label,
         "block_idx": block_index,
         "trial_id": trial_id,
-        "trial_index": block_trial_index,
         "rule": rule,
         "target_side": target_side,
         "correct_key": correct_key,
@@ -92,7 +66,7 @@ def run_trial(
         fixation,
         trial_id=trial_id,
         phase="fixation",
-        deadline_s=_deadline_s(fixation_duration),
+        deadline_s=fixation_duration,
         valid_keys=[],
         block_id=block_label,
         condition_id=rule,
@@ -101,7 +75,7 @@ def run_trial(
     )
     fixation.show(
         duration=fixation_duration,
-        onset_trigger=settings.triggers.get("fixation_onset"),
+        onset_trigger=trigger_map.get("fixation_onset"),
     ).to_dict(trial_data)
 
     rule_cue = make_unit(unit_label="rule_cue")
@@ -112,7 +86,7 @@ def run_trial(
         rule_cue,
         trial_id=trial_id,
         phase="rule_cue",
-        deadline_s=_deadline_s(cue_duration),
+        deadline_s=cue_duration,
         valid_keys=[],
         block_id=block_label,
         condition_id=rule,
@@ -121,7 +95,7 @@ def run_trial(
     )
     rule_cue.show(
         duration=cue_duration,
-        onset_trigger=settings.triggers.get(rule_onset_trigger),
+        onset_trigger=trigger_map.get(rule_onset_trigger),
     ).to_dict(trial_data)
 
     gap = make_unit(unit_label="gap")
@@ -131,7 +105,7 @@ def run_trial(
         gap,
         trial_id=trial_id,
         phase="gap",
-        deadline_s=_deadline_s(gap_duration),
+        deadline_s=gap_duration,
         valid_keys=[],
         block_id=block_label,
         condition_id=rule,
@@ -140,7 +114,7 @@ def run_trial(
     )
     gap.show(
         duration=gap_duration,
-        onset_trigger=settings.triggers.get("gap_onset"),
+        onset_trigger=trigger_map.get("gap_onset"),
     ).to_dict(trial_data)
 
     saccade = make_unit(unit_label="saccade_response")
@@ -151,7 +125,7 @@ def run_trial(
         saccade,
         trial_id=trial_id,
         phase="saccade_response",
-        deadline_s=_deadline_s(response_deadline),
+        deadline_s=response_deadline,
         valid_keys=response_keys,
         block_id=block_label,
         condition_id=rule,
@@ -168,12 +142,12 @@ def run_trial(
     )
     saccade.capture_response(
         keys=response_keys,
+        correct_keys=[correct_key],
         duration=response_deadline,
-        onset_trigger=settings.triggers.get(target_onset_trigger),
+        onset_trigger=trigger_map.get(target_onset_trigger),
         response_trigger=None,
-        timeout_trigger=settings.triggers.get("response_timeout"),
-    )
-    saccade.to_dict(trial_data)
+        timeout_trigger=trigger_map.get("response_timeout"),
+    ).to_dict(trial_data)
 
     response_key = str(saccade.get_state("response", "")).strip().lower()
     responded = response_key in response_keys
@@ -183,16 +157,16 @@ def run_trial(
 
     if responded:
         if response_key == left_key:
-            trigger_runtime.send(settings.triggers.get("response_left"))
+            trigger_runtime.send(trigger_map.get("response_left"))
         elif response_key == right_key:
-            trigger_runtime.send(settings.triggers.get("response_right"))
+            trigger_runtime.send(trigger_map.get("response_right"))
 
     iti = make_unit(unit_label="iti").add_stim(stim_bank.get("fixation"))
     set_trial_context(
         iti,
         trial_id=trial_id,
         phase="iti",
-        deadline_s=_deadline_s(iti_duration),
+        deadline_s=iti_duration,
         valid_keys=[],
         block_id=block_label,
         condition_id=rule,
@@ -201,7 +175,7 @@ def run_trial(
     )
     iti.show(
         duration=iti_duration,
-        onset_trigger=settings.triggers.get("iti_onset"),
+        onset_trigger=trigger_map.get("iti_onset"),
     ).to_dict(trial_data)
 
     trial_data.update(
@@ -214,11 +188,4 @@ def run_trial(
         }
     )
 
-    controller.record_trial(
-        hit=bool(hit),
-        rt_s=rt_s,
-        responded=bool(responded),
-        rule=rule,
-        target_side=SIDE_LEFT if target_side == SIDE_LEFT else SIDE_RIGHT,
-    )
     return trial_data

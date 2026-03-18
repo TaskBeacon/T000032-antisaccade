@@ -1,24 +1,28 @@
-﻿subinfo_fields:
+subinfo_fields:
   - name: subject_id
     type: int
     constraints:
       min: 101
       max: 999
       digits: 3
+
 subinfo_mapping:
   subject_id: 受试者编号（3位）
-  Participant Information: 被试信息
+  Participant Information: 参与者信息
   registration_failed: 注册失败
   registration_successful: 注册成功
   invalid_input: "{field} 输入无效"
+
 window:
   size: [1280, 720]
   units: pix
   screen: 0
   bg_color: gray
   fullscreen: false
+  fullscreen_lock_escape: true
   monitor_width_cm: 35.5
   monitor_distance_cm: 60
+
 task:
   task_name: antisaccade
   save_path: ./outputs/sim
@@ -38,21 +42,30 @@ task:
   language: Chinese
   voice_name: zh-CN-YunyangNeural
   voice_enabled: false
+  enable_logging: true
+
 timing:
   fixation_duration: [0.3, 0.4]
   cue_duration: [0.2, 0.3]
   gap_duration: [0.08, 0.12]
   response_deadline: 0.8
   iti_duration: 0.2
+
 stimuli:
   instruction_text:
     type: text
-    text: "反眼跳任务（模拟）\n\n绿色规则：朝圆点方向反应。\n红色规则：朝圆点相反方向反应。\nF=左，J=右。\n\n按空格键开始。"
+    text: |
+      反眼跳任务（模拟）
+      绿色规则：朝圆点方向反应。
+      红色规则：背离圆点方向反应。
+      F = 左，J = 右。
+      按空格键开始。
     font: SimHei
     color: white
     height: 28
     wrapWidth: 980
     pos: [0, 90]
+
   fixation:
     type: text
     text: "+"
@@ -60,6 +73,7 @@ stimuli:
     color: white
     height: 44
     pos: [0, 0]
+
   rule_pro:
     type: text
     text: "朝圆点"
@@ -67,6 +81,7 @@ stimuli:
     color: [0.25, 0.9, 0.25]
     height: 32
     pos: [0, 210]
+
   rule_anti:
     type: text
     text: "背离圆点"
@@ -74,6 +89,7 @@ stimuli:
     color: [0.95, 0.25, 0.25]
     height: 32
     pos: [0, 210]
+
   left_anchor:
     type: circle
     radius: 34
@@ -81,6 +97,7 @@ stimuli:
     lineColor: [0.65, 0.65, 0.65]
     lineWidth: 2
     fillColor: null
+
   right_anchor:
     type: circle
     radius: 34
@@ -88,6 +105,7 @@ stimuli:
     lineColor: [0.65, 0.65, 0.65]
     lineWidth: 2
     fillColor: null
+
   left_target:
     type: circle
     radius: 26
@@ -95,6 +113,7 @@ stimuli:
     lineColor: white
     lineWidth: 2
     fillColor: white
+
   right_target:
     type: circle
     radius: 26
@@ -102,20 +121,36 @@ stimuli:
     lineColor: white
     lineWidth: 2
     fillColor: white
+
   block_break:
     type: text
-    text: "第 {block_num}/{total_blocks} 组完成\n\n正确率：{block_accuracy:.1%}\n正确反应平均RT：{mean_rt_ms:.0f} ms\n超时次数：{timeout_count}\n\n准备好后按空格键继续。"
+    text: |
+      第 {block_num}/{total_blocks} 组完成
+      正确率：{block_accuracy:.1%}
+      正确反应平均 RT：{mean_rt_ms:.0f} ms
+      超时次数：{timeout_count}
+
+      准备好后按空格键继续。
     font: SimHei
     color: white
     height: 26
     wrapWidth: 980
+
   good_bye:
     type: text
-    text: "模拟运行结束。\n\n总试次：{total_trials}\n正确率：{total_accuracy:.1%}\n正确反应平均RT：{mean_rt_ms:.0f} ms\n超时次数：{total_timeouts}\n\n按空格键退出。"
+    text: |
+      模拟运行结束
+      总试次：{total_trials}
+      正确率：{total_accuracy:.1%}
+      正确反应平均 RT：{mean_rt_ms:.0f} ms
+      超时次数：{total_timeouts}
+
+      按空格键退出。
     font: SimHei
     color: white
     height: 28
     wrapWidth: 980
+
 triggers:
   map:
     exp_onset: 1
@@ -140,14 +175,7 @@ triggers:
     post_delay_ms: 1
   policy:
     strict: false
-controller:
-  fixation_duration: [0.3, 0.4]
-  cue_duration: [0.2, 0.3]
-  gap_duration: [0.08, 0.12]
-  response_deadline: 0.8
-  iti_duration: 0.2
-  random_seed: 23
-  enable_logging: true
+
 sim:
   output_dir: outputs/sim
   seed: 0
@@ -162,4 +190,3 @@ sim:
     kwargs:
       key: f
       rt_s: 0.25
-

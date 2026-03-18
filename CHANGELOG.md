@@ -1,4 +1,16 @@
-﻿# CHANGELOG
+# CHANGELOG
+
+## [v0.1.4-dev] - 2026-03-18
+
+### Changed
+- Removed the task-local controller from `main.py` and moved trial-specific sampling into deterministic helpers in `src/utils.py`.
+- Rebuilt `src/run_trial.py` around `BlockUnit.generate_conditions(...)` and `next_trial_id()`, while preserving the same reduced-data columns for logical trials.
+- Rewrote all config files with UTF-8 participant-facing text and removed the `controller:` section.
+- Regenerated the task flow plot and supporting audit artifacts under `references/task_plot_*` plus `task_flow.png`.
+
+### Fixed
+- Restored the block summary path to aggregate only logical trial rows.
+- Cleaned the README to match the current helper-based runtime structure and updated the version metadata.
 
 ## [v0.1.3-dev] - 2026-03-02
 
@@ -43,4 +55,3 @@ All notable development changes for `T000032-antisaccade` are documented here.
 - `psyflow-qa <task_path> --config config/config_qa.yaml --no-maturity-update`
 - `python main.py sim --config config/config_scripted_sim.yaml`
 - `python main.py sim --config config/config_sampler_sim.yaml`
-

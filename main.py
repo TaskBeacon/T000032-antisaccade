@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from functools import partial
 from pathlib import Path
 
@@ -17,10 +19,11 @@ from psyflow import (
     initialize_triggers,
     load_config,
     parse_task_run_options,
+    reset_trial_counter,
     runtime_context,
 )
 
-from src import Controller, run_trial
+from src import run_trial, summarizeBlock, summarizeOverall
 
 
 def _make_qa_trigger_runtime():
@@ -44,35 +47,19 @@ def _parse_args(task_root: Path) -> TaskRunOptions:
     )
 
 
-def _as_bool(value) -> bool:
-    if isinstance(value, bool):
-        return value
-    return str(value).strip().lower() in {"1", "true", "yes", "y"}
-
-
-def _as_float(value) -> float | None:
+def _resolve_block_seed(settings: TaskSettings, block_index: int) -> int:
+    block_seed = getattr(settings, "block_seed", None)
+    if isinstance(block_seed, list) and block_index < len(block_seed):
+        candidate = block_seed[block_index]
+        if candidate is not None:
+            try:
+                return int(candidate)
+            except Exception:
+                pass
     try:
-        return float(value)
+        return int(getattr(settings, "overall_seed", 2025))
     except Exception:
-        return None
-
-
-def _summarize_trials(trials: list[dict]) -> tuple[float, float, int]:
-    if not trials:
-        return 0.0, 0.0, 0
-
-    correct = sum(1 for row in trials if _as_bool(row.get("saccade_response_hit", False)))
-    acc = correct / len(trials)
-    rt_values = []
-    for row in trials:
-        if not _as_bool(row.get("saccade_response_hit", False)):
-            continue
-        rt = _as_float(row.get("saccade_response_rt", None))
-        if rt is not None:
-            rt_values.append(rt)
-    mean_rt_ms = (sum(rt_values) / len(rt_values) * 1000.0) if rt_values else 0.0
-    timeouts = sum(1 for row in trials if _as_bool(row.get("timed_out", False)))
-    return acc, mean_rt_ms, timeouts
+        return block_index + 1
 
 
 def run(options: TaskRunOptions):
@@ -114,21 +101,21 @@ def _run_impl(*, mode: str, output_dir: Path | None, cfg: dict, participant_id: 
         settings.json_file = str(output_dir / "qa_settings.json")
 
     settings.triggers = cfg["trigger_config"]
+
     if mode in ("qa", "sim"):
         trigger_runtime = _make_qa_trigger_runtime()
     else:
         trigger_runtime = initialize_triggers(cfg)
 
     win, kb = initialize_exp(settings)
+    reset_trial_counter()
 
     stim_bank = StimBank(win, cfg["stim_config"])
     if mode not in ("qa", "sim"):
         stim_bank = stim_bank.convert_to_voice("instruction_text")
     stim_bank = stim_bank.preload_all()
 
-    settings.controller = cfg["controller_config"]
     settings.save_to_json()
-    controller = Controller.from_dict(settings.controller)
 
     trigger_runtime.send(settings.triggers.get("exp_onset"))
 
@@ -142,7 +129,7 @@ def _run_impl(*, mode: str, output_dir: Path | None, cfg: dict, participant_id: 
     all_data = []
     total_blocks = int(getattr(settings, "total_blocks", 1))
     for block_i in range(total_blocks):
-        controller.start_block(block_i)
+        block_seed = _resolve_block_seed(settings, block_i)
         if mode not in ("qa", "sim"):
             count_down(win, 3, color="black")
 
@@ -154,44 +141,44 @@ def _run_impl(*, mode: str, output_dir: Path | None, cfg: dict, participant_id: 
                 window=win,
                 keyboard=kb,
             )
-                .generate_conditions()
-                .on_start(lambda b: trigger_runtime.send(settings.triggers.get("block_onset")))
-                .on_end(lambda b: trigger_runtime.send(settings.triggers.get("block_end")))
-                .run_trial(
-                    partial(
-                        run_trial,
-                        stim_bank=stim_bank,
-                        controller=controller,
-                        trigger_runtime=trigger_runtime,
-                        block_id=f"block_{block_i}",
-                        block_idx=block_i,
-                    )
+            .generate_conditions()
+            .on_start(lambda b: trigger_runtime.send(settings.triggers.get("block_onset")))
+            .on_end(lambda b: trigger_runtime.send(settings.triggers.get("block_end")))
+            .run_trial(
+                partial(
+                    run_trial,
+                    stim_bank=stim_bank,
+                    trigger_runtime=trigger_runtime,
+                    block_id=f"block_{block_i}",
+                    block_idx=block_i,
+                    block_seed=block_seed,
                 )
-                .to_dict(all_data)
             )
+            .to_dict(all_data)
+        )
 
         block_trials = block.get_all_data()
-        block_acc, block_rt_ms, block_timeouts = _summarize_trials(block_trials)
+        block_metrics = summarizeBlock(block_trials, block.block_id)
         if block_i < (total_blocks - 1):
             StimUnit("block", win, kb, runtime=trigger_runtime).add_stim(
                 stim_bank.get_and_format(
                     "block_break",
                     block_num=block_i + 1,
                     total_blocks=total_blocks,
-                    block_accuracy=block_acc,
-                    mean_rt_ms=block_rt_ms,
-                    timeout_count=block_timeouts,
+                    block_accuracy=block_metrics["accuracy"],
+                    mean_rt_ms=block_metrics["mean_rt_ms"],
+                    timeout_count=block_metrics["timeout_count"],
                 )
             ).wait_and_continue()
 
-    overall_acc, overall_rt_ms, total_timeouts = _summarize_trials(all_data)
+    overall_metrics = summarizeOverall(all_data)
     StimUnit("goodbye", win, kb, runtime=trigger_runtime).add_stim(
         stim_bank.get_and_format(
             "good_bye",
             total_trials=len(all_data),
-            total_accuracy=overall_acc,
-            mean_rt_ms=overall_rt_ms,
-            total_timeouts=total_timeouts,
+            total_accuracy=overall_metrics["accuracy"],
+            mean_rt_ms=overall_metrics["mean_rt_ms"],
+            total_timeouts=overall_metrics["timeout_count"],
         )
     ).wait_and_continue(terminate=True)
 

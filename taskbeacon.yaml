@@ -1,12 +1,12 @@
-﻿id: T000032
+id: T000032
 slug: antisaccade
 title: Antisaccade Task
 acquisition: behavior
 variant: baseline
 cognitive_domain: []
-maturity: draft
+maturity: smoke_tested
 version:
-  release_tag: v0.1.2-dev
+  release_tag: v0.1.4-dev
 contracts:
   psyflow_taps: v0.1.0
 evidence:
