@@ -55,7 +55,7 @@ The task no longer uses a separate controller object. Trial-specific rule, targe
 | Component | Description |
 |---|---|
 | Rule parser | Validates `prosaccade` vs `antisaccade` and rejects unknown labels. |
-| Deterministic spec builder | Samples target side and timing from a stable seed basis (`block_seed + trial_id`) and computes the correct key. |
+| Deterministic spec builder | Samples target side from a stable seed basis (`block_seed + trial_id`) and computes the correct key. |
 | Summary helpers | Aggregate reduced rows into accuracy, mean correct RT, timeout count, and total trials. |
 
 ### Controller Logic
