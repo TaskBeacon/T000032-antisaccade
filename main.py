@@ -23,7 +23,7 @@ from psyflow import (
     runtime_context,
 )
 
-from src import run_trial, summarizeBlock, summarizeOverall
+from src import build_antisaccade_trial_spec, run_trial, summarizeBlock, summarizeOverall
 
 
 def _make_qa_trigger_runtime():
@@ -133,15 +133,25 @@ def _run_impl(*, mode: str, output_dir: Path | None, cfg: dict, participant_id: 
         if mode not in ("qa", "sim"):
             count_down(win, 3, color="black")
 
-        block = (
-            BlockUnit(
-                block_id=f"block_{block_i}",
-                block_idx=block_i,
+        block = BlockUnit(
+            block_id=f"block_{block_i}",
+            block_idx=block_i,
+            settings=settings,
+            window=win,
+            keyboard=kb,
+        ).generate_conditions()
+        scheduled_conditions = [
+            build_antisaccade_trial_spec(
+                condition=str(condition_label),
+                trial_id=trial_index,
+                block_seed=block_seed,
                 settings=settings,
-                window=win,
-                keyboard=kb,
             )
-            .generate_conditions()
+            for trial_index, condition_label in enumerate(list(block.conditions or []), start=1)
+        ]
+
+        block = (
+            block.add_condition(scheduled_conditions)
             .on_start(lambda b: trigger_runtime.send(settings.triggers.get("block_onset")))
             .on_end(lambda b: trigger_runtime.send(settings.triggers.get("block_end")))
             .run_trial(

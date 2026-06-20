@@ -4,7 +4,7 @@ from functools import partial
 
 from psyflow import StimUnit, next_trial_id, set_trial_context
 
-from .utils import SIDE_LEFT, build_antisaccade_trial_spec
+from .utils import SIDE_LEFT
 
 
 def run_trial(
@@ -20,12 +20,9 @@ def run_trial(
 ):
     """Run one antisaccade/prosaccade trial."""
     trial_id = next_trial_id()
-    trial_spec = build_antisaccade_trial_spec(
-        condition=condition,
-        trial_id=trial_id,
-        block_seed=block_seed,
-        settings=settings,
-    )
+    if not isinstance(condition, dict):
+        raise ValueError("Antisaccade run_trial requires a scheduled trial-spec condition dict.")
+    trial_spec = dict(condition)
     rule = str(trial_spec["rule"]).strip().lower()
     target_side = str(trial_spec["target_side"]).strip().lower()
 
@@ -46,8 +43,8 @@ def run_trial(
     target_stim_id = "left_target" if target_side == SIDE_LEFT else "right_target"
     target_onset_trigger = "target_onset_left" if target_side == SIDE_LEFT else "target_onset_right"
     # Keep cue identity parseable for task-plot and config audits.
-    rule_stim_id = "rule_pro" if condition.lower() == "prosaccade" else "rule_anti"
-    rule_onset_trigger = "rule_pro_onset" if condition.lower() == "prosaccade" else "rule_anti_onset"
+    rule_stim_id = "rule_pro" if rule == "prosaccade" else "rule_anti"
+    rule_onset_trigger = "rule_pro_onset" if rule == "prosaccade" else "rule_anti_onset"
 
     trial_data = {
         "condition": rule,
@@ -145,7 +142,10 @@ def run_trial(
         correct_keys=[correct_key],
         duration=response_deadline,
         onset_trigger=trigger_map.get(target_onset_trigger),
-        response_trigger=None,
+        response_trigger={
+            left_key: trigger_map.get("response_left"),
+            right_key: trigger_map.get("response_right"),
+        },
         timeout_trigger=trigger_map.get("response_timeout"),
     ).to_dict(trial_data)
 
@@ -154,12 +154,6 @@ def run_trial(
     hit = bool(responded and response_key == correct_key)
     rt = saccade.get_state("rt", None)
     rt_s = float(rt) if isinstance(rt, (int, float)) else None
-
-    if responded:
-        if response_key == left_key:
-            trigger_runtime.send(trigger_map.get("response_left"))
-        elif response_key == right_key:
-            trigger_runtime.send(trigger_map.get("response_right"))
 
     iti = make_unit(unit_label="iti").add_stim(stim_bank.get("fixation"))
     set_trial_context(
